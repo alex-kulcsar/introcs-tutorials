@@ -86,6 +86,11 @@ controller.moveSprite(mySprite)
 ** vertically** (up and down)?
 -   Are there any numbers that are **not** allowed for **vx** and **vy**?
 
+~hint What kind of numbers should I try?
+-   Try some negative numbers.
+-   What happens when the velocity is zero?
+hint~
+
 ```blocks
 let mySprite: Sprite = sprites.create(img`.`, SpriteKind.Player)
 mySprite.setPosition(0, 0)
@@ -115,7 +120,10 @@ mySprite.say(":)")
 
 1.   In your ``||variables(sprites):mySprite||`` ``||sprites:say ":)"||`` block,
 select the **expand** button.
-     -   Remember that the *expand* button is the plus sign at the end of the block.
+
+~hint What is the "expand" button?
+-   The *expand* button is the plus sign at the end of the block.
+hint~
 
 **Questions**
 
