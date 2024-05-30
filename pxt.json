@@ -11,7 +11,8 @@
         "main.ts",
         "s01-lab0101-part1.md",
         "s01-lab0101-part2.md",
-        "s01-lab0102.md"
+        "s01-lab0102.md",
+        "s01-lab0103.md"
     ],
     "testFiles": [
         "test.ts"
