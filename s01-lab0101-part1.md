@@ -78,7 +78,7 @@ controller.moveSprite(mySprite)
 
 **Questions**
 
--   What new properties appear?
+-   What new items appear?
 -   What happens when you change the values of **vx** and **vy**?
 -   How can you use those values to make the sprite **only** move
 **horizontally** (left and right)?
@@ -127,8 +127,8 @@ hint~
 
 **Questions**
 
--   What new properties appear?
--   What is the purpose of each of the new properties?
+-   What new items appear?
+-   What is the purpose of each of the new items?
 
 ```blocks
 let mySprite: Sprite = sprites.create(img`.`, SpriteKind.Player)
