@@ -1,6 +1,6 @@
 # Lab 1.1 Part 1: Blocks scavenger hunt!
 
-## Blocks scavenger hunt! @showhint
+## Blocks scavenger hunt! @unplugged
 
 This activity is a scavenger hunt.
 Some of the blocks will be familiar to you from previous labs.

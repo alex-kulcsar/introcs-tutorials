@@ -1,6 +1,6 @@
 # Lab 1.1 Part 2: Renaming variables
 
-## Renaming sprites @showhint
+## Renaming sprites @unplugged
 
 Before our next scavenger hunt, let's learn how to change the name
 of a sprite. Follow these instructions to change the
