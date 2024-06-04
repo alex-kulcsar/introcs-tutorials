@@ -19,7 +19,7 @@
 * description: Build a small project while learning about some useful blocks.
 * type: tutorial
 * next: lab-01-01-part-2
-* url: https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0101-part1
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0101-part1
 
 ### lab-01-01-part-2
 
