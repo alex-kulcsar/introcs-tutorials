@@ -26,7 +26,7 @@
 * name: Part 2 Renaming variables
 * description: Follow these steps to give your variables meaningful names.
 * type: tutorial
-* url: https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0101-part2
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0101-part2
 
 ## lab-01-02-and-03
 
@@ -39,11 +39,11 @@
 * description: Learn to place sprites on the screen and work with different kinds of sprites.
 * type: tutorial
 * next: lab-01-03
-* url: https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0102
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0102
 
 ### lab-01-03
 
 * name: Lab 1.3 Moving sprites
 * description: Use the controller to move the hero sprite around the screen!
 * type: tutorial
-* url: https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0103
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0103
