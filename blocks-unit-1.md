@@ -47,3 +47,16 @@
 * description: Use the controller to move the hero sprite around the screen!
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0103
+
+## lab-01-04
+
+* name: Lab 1.4 Eat it all
+* description: In this lab, we will write a game where the player must eat all the food
+which appears--while avoiding an enemy which bounces around the screen!
+
+### lab-01-04-part1
+
+* name: Part 1 A screen full of food
+* description: Add food sprites to the screen at random locations
+* type: tutorial
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0104-part1.md
