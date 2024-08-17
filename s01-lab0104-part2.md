@@ -115,7 +115,7 @@ Now, let's make the fruit disappear when the hero eats it.
 1.    Refer to the previous step to add a new ``||sprites:on overlap||``
 block to your workspace.
 1.    Change the block so that, when you read it, it says the following:
-``||spriteson sprite of kind Player overlaps otherSprite of kind Food||``.
+``||sprites:on sprite of kind Player overlaps otherSprite of kind Food||``.
 1.    In your new ``||sprites:on overlap||`` container, add a block that
 deletes the food sprite with some sort of effect.
 
