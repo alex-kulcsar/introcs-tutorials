@@ -60,9 +60,11 @@ block and drop it into the **x** value of the ``||sprites(math):set||``
 block.
 1.   Instead of the numbers **0** and **10**, change the values to pick
 a random number from **8** to **152**.
-1.   Let your program run in the simulator. That's a little better, right?
+
+Let your program run in the simulator. That's a little better, right?
 Now, let's pick a random **y** value, too.
-1.   Drag another `||math:pick random (0) to (10)||``
+
+1.   Drag another ``||math:pick random (0) to (10)||``
 block and drop it into the **y** value of the ``||sprites(math):set||``
 ``||variables(math):foodSprite||`` ``||sprites(math):position to x (0) y (0)||``
 block.
@@ -75,6 +77,9 @@ Now, you should have food appearing all over the screen!
 -   Why **8** to **152** for **x**?
 -   Why **8** to **112** for **y**?
 
+## Complete
+
+Good work! Now, we need to add a player. Onward to Part 2!
 
 ```blocks
 let foodSprite: Sprite = null
