@@ -68,7 +68,7 @@ Now, we need something to happen when your enemy sprite touches your hero sprite
 1.   Change the kind for ``||variables:otherSprite||`` to
 ``||sprites:Enemy||``.
 1.   Read the text in this block out loud. It should say:
-`on sprite of kind Player overlaps otherSprite of kind Enemy`.
+``||sprites:on sprite of kind Player overlaps otherSprite of kind Enemy||``.
 1.   Check the hint to make sure your block looks correct.
 
 This container block is called an **event handler**. You will learn more
@@ -115,7 +115,7 @@ Now, let's make the fruit disappear when the hero eats it.
 1.    Refer to the previous step to add a new ``||sprites:on overlap||``
 block to your workspace.
 1.    Change the block so that, when you read it, it says the following:
-`on sprite of kind Player overlaps otherSprite of kind Food`.
+``||spriteson sprite of kind Player overlaps otherSprite of kind Food||``.
 1.    In your new ``||sprites:on overlap||`` container, add a block that
 deletes the food sprite with some sort of effect.
 
