@@ -77,10 +77,6 @@ Now, you should have food appearing all over the screen!
 -   Why **8** to **152** for **x**?
 -   Why **8** to **112** for **y**?
 
-## Complete
-
-Good work! Now, we need to add a player. Onward to Part 2!
-
 ```blocks
 let foodSprite: Sprite = null
 game.onUpdateInterval(3000, () => {
@@ -88,3 +84,7 @@ game.onUpdateInterval(3000, () => {
     foodSprite.setPosition(randint(8, 152), randint(8, 112))
 })
 ```
+
+## Complete
+
+Good work! Now, we need to add a player. Onward to Part 2!

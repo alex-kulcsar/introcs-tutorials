@@ -48,7 +48,7 @@ let heroSprite: Sprite = sprites.create(sprites.castle.princessFront2, SpriteKin
 heroSprite.setStayInScreen(true)
 controller.moveSprite(heroSprite)
 // @highlight
-let enemySprite: Sprite = sprites.create(sprites.builtin.forestBat0, SpriteKind.Player)
+let enemySprite: Sprite = sprites.create(sprites.builtin.forestBat0, SpriteKind.Enemy)
 // @highlight
 enemySprite.setPosition(randint(8, 152), randint(8, 112))
 // @highlight
@@ -145,7 +145,7 @@ let foodSprite: Sprite = null
 let heroSprite = sprites.create(sprites.castle.princessFront2, SpriteKind.Player)
 heroSprite.setStayInScreen(true)
 controller.moveSprite(heroSprite)
-let enemySprite = sprites.create(sprites.builtin.forestBat0, SpriteKind.Player)
+let enemySprite = sprites.create(sprites.builtin.forestBat0, SpriteKind.Enemy)
 enemySprite.setPosition(randint(8, 152), randint(8, 112))
 enemySprite.setVelocity(randint(25, 50), randint(25, 50))
 enemySprite.setBounceOnWall(true)
