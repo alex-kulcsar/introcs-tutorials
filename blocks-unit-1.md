@@ -80,7 +80,7 @@ which appears--while avoiding an enemy which bounces around the screen!
 
 ### lab-01-04-finish
 
-* description: Congratulations! Stop here; proceed to Lab 1.5 when instructed by your teacher.
+* name: End of Lab 1.4.
 * type: certificate
 * kind: completion
 * next: lab-01-05
