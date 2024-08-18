@@ -68,7 +68,7 @@ hint~
 ```blocks
 let plasmaSprite: Sprite = null
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Player)
+    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Projectile)
 })
 ```
 
@@ -101,7 +101,7 @@ View the hint to check your code.
 let plasmaSprite: Sprite = null
 let heroSprite: Sprite = null
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Player)
+    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Projectile)
     plasmaSprite.setPosition(heroSprite.x, heroSprite.y)
 })
 ```
@@ -126,7 +126,7 @@ Use the hint if you get stuck!
 let plasmaSprite: Sprite = null
 let heroSprite: Sprite = null
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Player)
+    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Projectile)
     plasmaSprite.setPosition(heroSprite.x, heroSprite.y)
     plasmaSprite.setVelocity(0, -50)
     plasmaSprite.setFlag(SpriteFlag.AutoDestroy, true)
@@ -141,7 +141,7 @@ projectiles at!
 
 ```ghost
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Player)
+    plasmaSprite = sprites.create(sprites.projectile.explosion1, SpriteKind.Projectile)
     plasmaSprite.setPosition(heroSprite.x, heroSprite.y)
     plasmaSprite.setVelocity(0, -50)
     plasmaSprite.setFlag(SpriteFlag.AutoDestroy, true)
