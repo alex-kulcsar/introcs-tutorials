@@ -25,7 +25,7 @@ Now, in every block where your sprite is used, the name has changed!
 
 In all of your programs, give your sprites meaningful names!
 
-![Renaming a variable in MakeCode](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L01.01.P02.rename_variable.png)
+![Renaming a variable in MakeCode](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L01.01.P02.rename_variable.gif)
 
 ```blocks
 // @highlight
