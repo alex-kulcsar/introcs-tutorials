@@ -15,7 +15,7 @@
 
 ### lab-01-01-part-1
 
-* name: Part 1 Blocks scavenger hunt
+* name: Lab 1.1 Part 1 Blocks scavenger hunt
 * description: Build a small project while learning about some useful blocks.
 * type: tutorial
 * next: lab-01-01-part-2
@@ -23,7 +23,7 @@
 
 ### lab-01-01-part-2
 
-* name: Part 2 Renaming variables
+* name: Lab 1.1 Part 2 Renaming variables
 * description: Follow these steps to give your variables meaningful names.
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0101-part2
