@@ -29,8 +29,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 
 ## Complete! @unplugged
 
-Good work! The player now has a way to destroy enemies and earn points.
-Now we need to put the player in some jeopardy. On to part 4!
+Good work! Your game is now complete! If you have time, then move on to the bonus
+section, where we will add some sound effects!
 
 ```template
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
