@@ -13,7 +13,7 @@ Let's change the name of your sprite to **heroSprite**.
 Watch the animation below to see how this is done.
 Then, follow the instructions below to try it yourself!
 
-**TODO**: Record and insert animated GIF showing the steps below.
+**Note**: Look at the hint to see a video of these steps.
 
 1.   In any of the red ovals with the name **mySprite**,
 select the **down arrow**. A menu appears.
@@ -24,6 +24,8 @@ select the **down arrow**. A menu appears.
 Now, in every block where your sprite is used, the name has changed!
 
 In all of your programs, give your sprites meaningful names!
+
+![Renaming a variable in MakeCode](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L01.04.P02.function_use_local_variable.png)
 
 ```blocks
 // @highlight
