@@ -88,3 +88,11 @@ game.onUpdateInterval(3000, () => {
 ## Complete
 
 Good work! Now, we need to add a player. Onward to Part 2!
+
+```ghost
+let foodSprite: Sprite = null
+game.onUpdateInterval(3000, function () {
+    foodSprite = sprites.create(sprites.food.smallApple, SpriteKind.Food)
+    foodSprite.setPosition(randint(8, 152), randint(8, 112))
+})
+```

@@ -90,6 +90,28 @@ Good work! Now, make the game your own!
 -    Add a background.
 -    What else can you think of?
 
+```template
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
+    sprites.destroy(otherSprite, effects.spray, 500)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    otherSprite.setPosition(randint(8, 152), randint(8, 112))
+    otherSprite.setVelocity(randint(25, 50), randint(25, 50))
+})
+let foodSprite: Sprite = null
+let heroSprite = sprites.create(sprites.castle.princessFront2, SpriteKind.Player)
+heroSprite.setStayInScreen(true)
+controller.moveSprite(heroSprite)
+let enemySprite = sprites.create(sprites.builtin.forestBat0, SpriteKind.Enemy)
+enemySprite.setPosition(randint(8, 152), randint(8, 112))
+enemySprite.setVelocity(randint(25, 50), randint(25, 50))
+enemySprite.setBounceOnWall(true)
+game.onUpdateInterval(3000, function () {
+    foodSprite = sprites.create(sprites.food.smallApple, SpriteKind.Food)
+    foodSprite.setPosition(randint(8, 152), randint(8, 112))
+})
+```
+
 ```ghost
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     sprites.destroy(otherSprite, effects.spray, 500)

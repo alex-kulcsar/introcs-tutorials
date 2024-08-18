@@ -133,6 +133,14 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 
 Good work! Now, we need to keep track of score and lives. Onward to Part 3!
 
+```template
+let foodSprite: Sprite = null
+game.onUpdateInterval(3000, function () {
+    foodSprite = sprites.create(sprites.food.smallApple, SpriteKind.Food)
+    foodSprite.setPosition(randint(8, 152), randint(8, 112))
+})
+```
+
 ```ghost
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     sprites.destroy(otherSprite, effects.spray, 500)
