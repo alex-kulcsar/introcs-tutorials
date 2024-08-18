@@ -48,15 +48,39 @@
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0103
 
-## lab-01-04
+## lab-01-04-and-05
 
-* name: Lab 1.4 Eat it all
-* description: In this lab, we will write a game where the player must eat all the food
+* name: Labs 1.4 and 1.5 Eat it all! and Eat some more!
+* description: In these labs, we will write a game where the player must eat all the food
 which appears--while avoiding an enemy which bounces around the screen!
 
 ### lab-01-04-part1
 
-* name: Part 1 A screen full of food
+* name: Lab 1.4 Part 1 A screen full of food
 * description: Add food sprites to the screen at random locations
 * type: tutorial
+* next: lab-01-04-part2
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0104-part1.md
+
+### lab-01-04-part2
+
+* name: Lab 1.4 Part 2 Eat it all!
+* description: Add food sprites to the screen at random locations
+* type: tutorial
+* next: lab-01-04-part3
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0104-part2.md
+
+### lab-01-04-part3
+
+* name: Lab 1.4 Part 3 Points! Lives!
+* description: Add food sprites to the screen at random locations
+* type: tutorial
+* next: lab-01-05
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0104-part3.md
+
+### lab-01-05
+
+* name: Lab 1.5 Eat some more!
+* description: Add food sprites to the screen at random locations
+* type: tutorial
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0105.md
