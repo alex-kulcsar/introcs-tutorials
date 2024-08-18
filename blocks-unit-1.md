@@ -10,7 +10,7 @@
 
 ## lab-01-01
 
-* name: Lab 1.1 MakeCode Arcade scavenger hunt
+* name: MakeCode Arcade scavenger hunt
 * description: Learn more about MakeCode Arcade with a scavenger hunt!
 
 ### lab-01-01-part-1
@@ -50,7 +50,7 @@
 
 ## lab-01-04-and-05
 
-* name: Labs 1.4 and 1.5 Eat it all! and Eat some more!
+* name: Eat it all! and Eat some more!
 * description: In these labs, we will write a game where the player must eat all the food
 which appears--while avoiding an enemy which bounces around the screen!
 
