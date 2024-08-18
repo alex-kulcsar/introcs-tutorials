@@ -75,8 +75,15 @@ which appears--while avoiding an enemy which bounces around the screen!
 * name: Lab 1.4 Part 3 Points! Lives!
 * description: Add food sprites to the screen at random locations
 * type: tutorial
-* next: lab-01-05
+* next: lab-01-04-finish
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0104-part3.md
+
+### lab-01-04-finish
+
+* description: Congratulations! Stop here; proceed to Lab 1.5 when instructed by your teacher.
+* type: certificate
+* kind: completion
+* next: lab-01-05
 
 ### lab-01-05
 
