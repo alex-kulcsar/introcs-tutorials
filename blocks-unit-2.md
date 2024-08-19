@@ -58,3 +58,24 @@
 * description: Add some sound effects!
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0201-part5
+
+## lab-02-02
+
+* name: Introduction to variables
+* description: Learn a few ways to use variables!
+
+### lab-02-02-part-1
+
+* name: Lab 2.2 Part 1 How old are you?
+* description: Use variables to ask the player about their age. Learn to use the on-screen keyboard, too!
+* type: tutorial
+* next: lab-02-02-part-2
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0202-part1
+
+### lab-02-02-part-2
+
+* name: Lab 2.2 Part 2 How many items?
+* description: Use a variable to keep track of the number of sprites on the screen.
+* type: tutorial
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0202-part2
+
