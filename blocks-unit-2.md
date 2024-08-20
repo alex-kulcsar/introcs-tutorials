@@ -79,7 +79,12 @@
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0202-part2
 
-## lab-02-03
+## lab-02-02
+
+* name: Lab 2.3 Variables and math
+* description: Combine variables with math operations
+
+### lab-02-03-lab
 
 * name: Lab 2.3 Variables and math
 * description: Combine variables with math operations
