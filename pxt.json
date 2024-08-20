@@ -25,7 +25,8 @@
         "s01-lab0201-part5.md",
         "blocks-unit-2.md",
         "s01-lab0202-part1.md",
-        "s01-lab0202-part2.md"
+        "s01-lab0202-part2.md",
+        "s01-lab0203.md"
     ],
     "testFiles": [
         "test.ts"
