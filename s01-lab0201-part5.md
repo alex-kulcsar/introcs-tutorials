@@ -145,6 +145,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 let enemySprite: Sprite = null
 let plasmaSprite: Sprite = null
 let heroSprite: Sprite = null
+let projectile: Sprite = null
 heroSprite = sprites.create(sprites.space.spaceOrangeShip, SpriteKind.Player)
 heroSprite.setPosition(80, 110)
 heroSprite.setStayInScreen(true)
