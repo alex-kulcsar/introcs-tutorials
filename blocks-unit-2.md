@@ -102,3 +102,31 @@
 * description: Use strings, splashes, and story telling techniques to tell a silly story!
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0204
+
+## lab-02-05
+
+* name: Guess what!
+* description: Learn about conditional statements and decision structures.
+
+### lab-02-05-part-1
+
+* name: Lab 2.5 Pick a number!
+* description: Create a number-guessing game show!
+* type: tutorial
+* next: lab-02-05-part-2
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0205-part1
+
+### lab-02-05-part-2
+
+* name: Lab 2.5 Part 2 Is it even?
+* description: Use a conditional statement to test whether a number is even.
+* type: tutorial
+* next: lab-02-05-part-3
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0205-part2
+
+### lab-02-05-part-3
+
+* name: Lab 2.5 Magic four ball!
+* description: Use conditional statements to create a fortune telling device!
+* type: tutorial
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0205-part3
