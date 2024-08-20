@@ -27,7 +27,8 @@
         "s01-lab0202-part1.md",
         "s01-lab0202-part2.md",
         "s01-lab0203.md",
-        "s01-lab0204.md"
+        "s01-lab0204.md",
+        "s01-lab0205-part1.md"
     ],
     "testFiles": [
         "test.ts"
