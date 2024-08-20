@@ -67,6 +67,37 @@
 * kind: completion
 * next: lab-02-06-part-1
 
+### lab-02-06-part-1
+
+* name: Lab 2.6 Part 1 There's only room for two of us!
+* description: Update your project to limit the number of projectiles that are allowed.
+* type: tutorial
+* next: lab-02-06-part-2
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part1
+
+### lab-02-06-part-2
+
+* name: Lab 2.6 Part 2 Here come the enemies ... faster!
+* description: Update your project to speed up the enemies.
+* type: tutorial
+* next: lab-02-06-part-3
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part2
+
+### lab-02-06-part-3
+
+* name: Lab 2.6 Part 3 Not too fast!
+* description: Enforce a speed limit on your enemies.
+* type: tutorial
+* next: lab-02-06-part-4
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part3
+
+### lab-02-06-part-4
+
+* name: Lab 2.6 Part 4 Starting difficulty
+* description: Allow your player to select a difficlty!
+* type: tutorial
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part4
+
 ## lab-02-02
 
 * name: Introduction to variables
@@ -138,39 +169,3 @@
 * description: Use conditional statements to create a fortune telling device!
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0205-part3
-
-## lab-02-06
-
-* name: Changing conditions
-* description: Let's use conditions to improve your shooting gallery game!
-
-### lab-02-06-part-1
-
-* name: Lab 2.6 Part 1 There's only room for two of us!
-* description: Update your project to limit the number of projectiles that are allowed.
-* type: tutorial
-* next: lab-02-06-part-2
-* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part1
-
-### lab-02-06-part-2
-
-* name: Lab 2.6 Part 2 Here come the enemies ... faster!
-* description: Update your project to speed up the enemies.
-* type: tutorial
-* next: lab-02-06-part-3
-* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part2
-
-### lab-02-06-part-3
-
-* name: Lab 2.6 Part 3 Not too fast!
-* description: Enforce a speed limit on your enemies.
-* type: tutorial
-* next: lab-02-06-part-4
-* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part3
-
-### lab-02-06-part-4
-
-* name: Lab 2.6 Part 4 Starting difficulty
-* description: Allow your player to select a difficlty!
-* type: tutorial
-* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part4
