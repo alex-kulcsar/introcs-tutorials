@@ -33,7 +33,8 @@
         "s01-lab0205-part3.md",
         "s01-lab0206-part1.md",
         "s01-lab0206-part2.md",
-        "s01-lab0206-part3.md"
+        "s01-lab0206-part3.md",
+        "s01-lab0206-part4.md"
     ],
     "testFiles": [
         "test.ts"

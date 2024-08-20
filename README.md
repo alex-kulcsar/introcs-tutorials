@@ -27,6 +27,10 @@ Use the following URLs to open the skillmap and tutorials.
     - Lab 2.5 part 1: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0205-part1>
     - Lab 2.5 part 2: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0205-part2>
     - Lab 2.5 part 3: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0205-part3>
+    - Lab 2.6 part 1: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part1>
+    - Lab 2.6 part 2: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part2>
+    - Lab 2.6 part 3: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part3>
+    - Lab 2.6 part 4: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0206-part4>
 
 `-- Standard MakeCode Arcade README follows--`
 
