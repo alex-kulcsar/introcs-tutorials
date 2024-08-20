@@ -90,3 +90,15 @@
 * description: Combine variables with math operations
 * type: tutorial
 * url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0203
+
+## lab-02-04
+
+* name: Lab 2.4 Silly story time!
+* description: Use strings, splashes, and story telling techniques to tell a silly story!
+
+### lab-02-03-lab
+
+* name: Lab 2.4 Silly story time!
+* description: Use strings, splashes, and story telling techniques to tell a silly story!
+* type: tutorial
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0204
