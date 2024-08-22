@@ -7,23 +7,29 @@ Some of the blocks will be familiar to you from previous labs.
 Others may be new.
 
 If your instructor provided you with a worksheet for this lab,
-then complete the worksheet as you go through this tutorial.
+ complete the worksheet as you go through this tutorial.
 
 ## First block!
 
-1.   Find the ``||variables(sprites):set mySprite to||`` ``||sprites:sprite [] of kind Player||``
-block and add it to the ``||loops:on start||`` container.
-1.   Give your sprite an image. Feel free to select one from the Gallery for now.
+1.   Find the <br/>
+``||variables(sprites):set mySprite to||`` ``||sprites:sprite [] of kind Player||``<br/>
+block and add it to the <br/>
+``||loops(noclick):on start||`` <br/>
+container already in the workspace.
+2.   Give your sprite an image. <br/>
+(Select one from the **Gallery** for now.)
+
+---
 
 **Questions**
 
 *Note*: If your instructor provided you with a worksheet,
-then write the answers to these questions on your worksheet.
+write the answers to these questions on your worksheet.
 
 -   Which drawer in the toolbox holds this block?
 -   What does this block do?
 
-If you need help, then remember that you can select the help icon
+If you need help, remember that you can select the help icon
 (the question mark) to see a hint!
 
 ```blocks
@@ -33,11 +39,15 @@ let mySprite: Sprite = sprites.create(img`.`, SpriteKind.Player)
 
 ## Next block!
 
-1.   Find the ``||sprites:set||`` ``||variables(sprites):mySprite||``
-``||sprites:position to x [0] y[0]||`` block.
-1.   Add the block to **the bottom** of your ``||loops:on start||`` container.
+1.   Find the <br/>
+``||sprites:set||`` ``||variables(sprites):mySprite||``
+``||sprites:position to x [0] y[0]||``<br/>
+ block.
+2.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
 
-Try some different values for **x** and **y**.
+Try different values for **x** and **y**.
+
+---
 
 **Questions**
 
@@ -53,9 +63,13 @@ mySprite.setPosition(0, 0)
 
 ## Let's move!
 
-1.   Find the ``||controller:move||`` ``||variables(controller):mySprite||``
-``||controller:with buttons (+)||`` block.
-1.   Add the block to **the bottom** of your ``||loops:on start||`` container.
+1.   Find the <br/>
+``||controller:move||`` ``||variables(controller):mySprite||``
+``||controller:with buttons (+)||``<br/>
+ block.
+2.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
+
+---
 
 **Questions**
 
@@ -72,9 +86,13 @@ controller.moveSprite(mySprite)
 
 ## Move some more!
 
-1.   In your ``||controller:move||`` ``||variables(controller):mySprite||``
-``||controller:with buttons (+)||`` block, select the **expand** button.
+1.   In your <br/>
+``||controller(noclick):move||`` ``||variables(noclick):mySprite||``
+``||controller(noclick):with buttons (+)||``<br/> 
+block, click the **expand** button.
      -   The *expand* button is the plus sign at the end of the block.
+
+---
 
 **Questions**
 
@@ -100,8 +118,12 @@ controller.moveSprite(mySprite, 50, 0)
 
 ## Sprites can talk?
 
-1.   Find the ``||variables(sprites):mySprite||`` ``||sprites:say ":)"||`` block.
-1.   Add the block to **the bottom** of your ``||loops:on start||`` container.
+1.   Find the 
+<br/>``||variables(sprites):mySprite||`` ``||sprites:say ":)"||``<br/>
+ block.
+2.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
+
+---
 
 **Questions**
 
@@ -118,12 +140,16 @@ mySprite.say(":)")
 
 ## Sprites CAN talk!
 
-1.   In your ``||variables(sprites):mySprite||`` ``||sprites:say ":)"||`` block,
+1.   In your <br/>
+``||variables(noclick):mySprite||`` ``||sprites(noclick):say ":)"||``<br/>
+ block,
 select the **expand** button.
 
 ~hint What is the "expand" button?
 -   The *expand* button is the plus sign at the end of the block.
 hint~
+
+---
 
 **Questions**
 
