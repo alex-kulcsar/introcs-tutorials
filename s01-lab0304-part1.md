@@ -160,20 +160,22 @@ if (difficulty == 1) {
     MAX_PROJECTILES = 5
     MAX_ENEMY_VELOCITY = 100
     enemyVelocity = 10
-} else if (difficulty == 2) {
-    MAX_PROJECTILES = 3
-    MAX_ENEMY_VELOCITY = 150
-    enemyVelocity = 25
-} else {
+} else if (difficulty == 3) {
     MAX_PROJECTILES = 2
     MAX_ENEMY_VELOCITY = 200
     enemyVelocity = 50
+} else {
+    MAX_PROJECTILES = 3
+    MAX_ENEMY_VELOCITY = 150
+    enemyVelocity = 25
 }
 projectileCount = 0
 heroSprite = sprites.create(sprites.food.smallTaco, SpriteKind.Player)
 heroSprite.setPosition(80, 100)
 controller.moveSprite(heroSprite)
 heroSprite.setStayInScreen(true)
+info.setScore(0)
+info.setLife(3)
 game.onUpdateInterval(1000, function () {
     enemySprite = sprites.create(sprites.food.smallBurger, SpriteKind.Enemy)
     enemySprite.setPosition(randint(10, 150), -5)
@@ -183,14 +185,6 @@ game.onUpdateInterval(1000, function () {
 ```
 
 ```ghost
-info.onLifeZero(function () {
-    high_scores_message = ""
-    for (let index = 0; index <= number_of_high_scores - 1; index++) {
-        high_scores_message = "" + high_scores_message + high_score_names[index] + ": " + high_scores[index] + "\\n"
-    }
-    game.showLongText(high_scores_message, DialogLayout.Center)
-    game.gameOver(false)
-})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (projectileCount < MAX_PROJECTILES) {
         projectileCount += 1
@@ -199,6 +193,14 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         projectile.setVelocity(0, -50)
         projectile.setFlag(SpriteFlag.AutoDestroy, true)
     }
+})
+info.onLifeZero(function () {
+    high_scores_message = ""
+    for (let index = 0; index <= number_of_high_scores - 1; index++) {
+        high_scores_message = "" + high_scores_message + high_score_names[index] + ": " + high_scores[index] + "\\n"
+    }
+    game.showLongText(high_scores_message, DialogLayout.Center)
+    game.gameOver(false)
 })
 sprites.onCreated(SpriteKind.Projectile, function (sprite) {
     music.play(music.melodyPlayable(music.pewPew), music.PlaybackMode.InBackground)
@@ -221,12 +223,12 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     music.play(music.melodyPlayable(music.smallCrash), music.PlaybackMode.InBackground)
 })
 let enemySprite: Sprite = null
-let projectile: Sprite = null
-let heroSprite: Sprite = null
 let high_scores_message = ""
+let projectile: Sprite = null
 let high_score_names: string[] = []
 let high_scores: number[] = []
 let number_of_high_scores = 0
+let heroSprite: Sprite = null
 let projectileCount = 0
 let enemyVelocity = 0
 let MAX_ENEMY_VELOCITY = 0
@@ -236,21 +238,25 @@ if (difficulty == 1) {
     MAX_PROJECTILES = 5
     MAX_ENEMY_VELOCITY = 100
     enemyVelocity = 10
-} else if (difficulty == 2) {
-    MAX_PROJECTILES = 3
-    MAX_ENEMY_VELOCITY = 150
-    enemyVelocity = 25
-} else {
+} else if (difficulty == 3) {
     MAX_PROJECTILES = 2
     MAX_ENEMY_VELOCITY = 200
     enemyVelocity = 50
+} else {
+    MAX_PROJECTILES = 3
+    MAX_ENEMY_VELOCITY = 150
+    enemyVelocity = 25
 }
 projectileCount = 0
-number_of_high_scores = 3
 heroSprite = sprites.create(sprites.food.smallTaco, SpriteKind.Player)
 heroSprite.setPosition(80, 100)
 controller.moveSprite(heroSprite)
 heroSprite.setStayInScreen(true)
+info.setScore(0)
+info.setLife(3)
+number_of_high_scores = 3
+high_scores = [0, 0, 0]
+high_score_names = ["", "", ""]
 game.onUpdateInterval(1000, function () {
     enemySprite = sprites.create(sprites.food.smallBurger, SpriteKind.Enemy)
     enemySprite.setPosition(randint(10, 150), -5)
