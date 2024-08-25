@@ -32,16 +32,20 @@ Let's build a high score table that does just that!
 1.   Add a block to your ``||loops:on start||`` container to set the
 **number of high scores** to `3`.
 1.   Add blocks to your ``||loops:on start||`` container to set the
-**high scores** variable to an array with three zeroes.
+**high scores** variable to an array with three numbers.
+     -    Add whatever scores you like for your initial high score table!
+     -    Make sure the scores are in *descending* order. In other words,
+     make sure the highest score is first and the lowest score is last.
 1.   Add blocks to your ``||loops:on start||`` container to set the
 **high score names** variable to a list of three empty strings.
+Add whatever names you like for your initial high score table.
 
 Check the hint if you need help.
 
 ```blocks
 let number_of_high_scores = 3
-let high_scores = [0, 0, 0]
-let high_score_names = ["", "", ""]
+let high_scores = [3, 2, 1]
+let high_score_names = ["Charlie", "Bravo", "Alfa"]
 ```
 
 ## When does it end!
@@ -61,14 +65,15 @@ to make the game end, because it will not end on its own now!
 
 ## Show me!
 
-Before we end the game, let's display the high scores table. It doesn't
-have anything in it right now, and that's OK! When we add scores and names
-to it later, they will appear.
+Before we end the game, let's display the high scores table.
 
 1.   Create a new variable called **high scores text**.
 1.   In your ``||info:on life zero||`` container,
-set the value of **high scores text** to an empty string.
-Remember that you can find an empty string block in the **Text** drawer
+set the value of **high scores text** to the string
+**High scores\n**.
+     -    Those special characters at the end ask MakeCode to put
+the characters on their own line.
+     -    Remember that you can find an empty string block in the **Text** drawer
 of the toolbox.
 1.   To your ``||info:on life zero||`` container,
 add a ``||loops:for||`` ``||variables(loops):index||``
@@ -102,9 +107,9 @@ the game ends. Check the hint if you need help.
 let high_score_names: string[] = []
 let high_scores: number[] = []
 let number_of_high_scores = 0
-let high_scores_message = ""
+let high_scores_message: string = ""
 info.onLifeZero(function () {
-    high_scores_message = ""
+    high_scores_message = "High scores\\n"
     for (let index = 0; index <= number_of_high_scores - 1; index++) {
         high_scores_message = "" + high_scores_message + high_score_names[index] + ": " + high_scores[index] + "\\n"
     }
@@ -195,7 +200,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 info.onLifeZero(function () {
-    high_scores_message = ""
+    high_scores_message = "High Scores\n"
     for (let index = 0; index <= number_of_high_scores - 1; index++) {
         high_scores_message = "" + high_scores_message + high_score_names[index] + ": " + high_scores[index] + "\\n"
     }
@@ -255,8 +260,8 @@ heroSprite.setStayInScreen(true)
 info.setScore(0)
 info.setLife(3)
 number_of_high_scores = 3
-high_scores = [0, 0, 0]
-high_score_names = ["", "", ""]
+high_scores = [3, 2, 1]
+high_score_names = ["Charlie", "Bravo", "Alfa"]
 game.onUpdateInterval(1000, function () {
     enemySprite = sprites.create(sprites.food.smallBurger, SpriteKind.Enemy)
     enemySprite.setPosition(randint(10, 150), -5)
