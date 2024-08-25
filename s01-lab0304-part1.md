@@ -44,7 +44,7 @@ Check the hint if you need help.
 
 ```blocks
 let number_of_high_scores = 3
-let high_scores = [3, 2, 1]
+let high_scores = [500, 300, 100]
 let high_score_names = ["Charlie", "Bravo", "Alfa"]
 ```
 
@@ -260,7 +260,7 @@ heroSprite.setStayInScreen(true)
 info.setScore(0)
 info.setLife(3)
 number_of_high_scores = 3
-high_scores = [3, 2, 1]
+high_scores = [500, 300, 100]
 high_score_names = ["Charlie", "Bravo", "Alfa"]
 game.onUpdateInterval(1000, function () {
     enemySprite = sprites.create(sprites.food.smallBurger, SpriteKind.Enemy)
