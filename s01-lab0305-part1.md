@@ -209,6 +209,11 @@ workspace.
 
 Run your project -- your sprite should be animated! The animation should
 repeat without errors.
+
+Try different values in the
+``||game:on game update every (500) ms||`` container
+to speed up or slow down the animation.
+
 Check the hint if you need any help.
 
 ```blocks
