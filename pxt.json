@@ -37,7 +37,8 @@
         "s01-lab0206-part4.md",
         "s01-lab0304-part1.md",
         "s01-lab0304-part2.md",
-        "s01-lab0304-part3.md"
+        "s01-lab0304-part3.md",
+        "s01-lab0305-part1.md"
     ],
     "testFiles": [
         "test.ts"
@@ -50,5 +51,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
