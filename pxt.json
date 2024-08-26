@@ -40,7 +40,10 @@
         "s01-lab0304-part3.md",
         "s01-lab0305-part1.md",
         "s01-lab0305-part2.md",
-        "s01-lab0305-part3.md"
+        "s01-lab0305-part3.md",
+        "blocks-unit-3.md",
+        "blocks-lesson-3-4.md",
+        "blocks-lesson-3-5.md"
     ],
     "testFiles": [
         "test.ts"
