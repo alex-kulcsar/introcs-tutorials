@@ -8,6 +8,26 @@
 * highlightcolor: #FAED28
 * alternatesources: github:https://github.com/alex-kulcsar/introcs-tutorials/blocks-unit-3.md
 
+## lab-03-01
+
+* name: Definite loops
+* description: Learn about the two definite loops in MakeCode: The repeat loop and the for loop.
+
+### lab-03-01-part-1
+
+* name: Lab 3.1 Part 1 Repeat that, please!
+* description: Use the repeat loop to launch projectiles from a sprite.
+* type: tutorial
+* next: lab-03-01-part-2
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0301-part1
+
+### lab-03-01-part-2
+
+* name: Lab 3.1 Part 2 For!
+* description: Use the for loop to arrange sprites in a pattern.
+* type: tutorial
+* url: https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0301-part2
+
 ## lab-03-04
 
 * name: High scores
