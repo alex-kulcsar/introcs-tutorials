@@ -111,6 +111,8 @@ Run your project and see how it operates differently from before.
 
 Try different repeat values!
 
+How might you use this mechanism in your own projects?
+
 Check the hint if you need any help.
 
 ```block
