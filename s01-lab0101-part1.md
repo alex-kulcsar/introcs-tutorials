@@ -7,16 +7,16 @@ Some of the blocks will be familiar to you from previous labs.
 Others may be new.
 
 If your instructor provided you with a worksheet for this lab,
- complete the worksheet as you go through this tutorial.
+complete the worksheet as you go through this tutorial.
 
 ## First block!
 
-1.   Find the <br/>
-``||variables(sprites):set mySprite to||`` ``||sprites:sprite [] of kind Player||``<br/>
-block and add it to the <br/>
-``||loops(noclick):on start||`` <br/>
+1.   Find the  
+``||variables(sprites):set mySprite to||`` ``||sprites:sprite [] of kind Player||``   
+block and add it to the   
+``||loops(noclick):on start||``   
 container already in the workspace.
-2.   Give your sprite an image. <br/>
+1.   Give your sprite an image.   
 (Select one from the **Gallery** for now.)
 
 ---
@@ -39,11 +39,11 @@ let mySprite: Sprite = sprites.create(img`.`, SpriteKind.Player)
 
 ## Next block!
 
-1.   Find the <br/>
+1.   Find the   
 ``||sprites:set||`` ``||variables(sprites):mySprite||``
-``||sprites:position to x [0] y[0]||``<br/>
+``||sprites:position to x [0] y[0]||``   
  block.
-2.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
+1.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
 
 Try different values for **x** and **y**.
 
@@ -63,9 +63,9 @@ mySprite.setPosition(0, 0)
 
 ## Let's move!
 
-1.   Find the <br/>
+1.   Find the   
 ``||controller:move||`` ``||variables(controller):mySprite||``
-``||controller:with buttons (+)||``<br/>
+``||controller:with buttons (+)||``   
  block.
 2.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
 
@@ -86,9 +86,9 @@ controller.moveSprite(mySprite)
 
 ## Move some more!
 
-1.   In your <br/>
+1.   In your   
 ``||controller(noclick):move||`` ``||variables(noclick):mySprite||``
-``||controller(noclick):with buttons (+)||``<br/> 
+``||controller(noclick):with buttons (+)||``   
 block, click the **expand** button.
      -   The *expand* button is the plus sign at the end of the block.
 
@@ -118,8 +118,8 @@ controller.moveSprite(mySprite, 50, 0)
 
 ## Sprites can talk?
 
-1.   Find the 
-<br/>``||variables(sprites):mySprite||`` ``||sprites:say ":)"||``<br/>
+1.   Find the   
+``||variables(sprites):mySprite||`` ``||sprites:say ":)"||``   
  block.
 2.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
 
@@ -140,9 +140,9 @@ mySprite.say(":)")
 
 ## Sprites CAN talk!
 
-1.   In your <br/>
-``||variables(noclick):mySprite||`` ``||sprites(noclick):say ":)"||``<br/>
- block,
+1.   In your   
+``||variables(noclick):mySprite||`` ``||sprites(noclick):say ":)"||``   
+block,
 select the **expand** button.
 
 ~hint What is the "expand" button?
