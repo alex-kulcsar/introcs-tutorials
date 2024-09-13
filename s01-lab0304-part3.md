@@ -13,28 +13,34 @@ time we play our game!
 We've added an extension to your project, and you'll notice a new
 drawer in your toolbox called **BetterSettings**.
 
-In your ``||loops:on start||`` blocks, we simply create the **high scores**
+In your ``||loops(noclick):on start||`` blocks, we simply create the **high scores**
 and **high score names** arrays and add some values to it.
 
 Instead, let's load the high score table if one has been saved.
 
--    First, find the two blocks where you create the **high scores** and
+-    First, find the two blocks where you create the   
+**high scores** and   
 **high score names** variables, and drag them off to the side. You'll use
 them again later.
 
-Now, at the bottom of your ``||loops:on start||`` container, add the
+Now, at the bottom of your   
+``||loops(noclick):on start||`` container, add the
 following blocks.
 
-1.   Add an ``||logic:if (true) then else||`` container and add blocks so that it reads
-as follows:
+1.   Add an   
+``||logic:if (true) then else||`` container and add blocks so that it reads
+as follows:   
 ``||logic:if||`` ``||blockSettings:setting with name ("high scores") exists||``
 ``||logic:then||``
-1.   In the ``||logic:if||`` branch, add blocks that read as follows:
+1.   In the   
+``||logic(noclick):if||`` branch, add blocks that read as follows:   
 ``||variables:set (high scores) to||``
 ``||blockSettings:read settings ("high scores") as number array||``
-1.   In the ``||logic:else||`` branch, place your block that you moved
+1.   In the   
+``||logic:else||`` branch, place your block that you moved
 off to the side that
-creates the **high scores** array with your starting values.
+creates the   
+**high scores** array with your starting values.
 
 Do something similar for your **high score names** variable.
 
@@ -60,9 +66,11 @@ if (blockSettings.exists("high score names")) {
 We've loaded the high score table if one has been saved. Now, we need to save
 the high score table when we change it!
 
-In your ``||info:on life zero||`` container, after we update the
+In your   
+``||info(noclick):on life zero||`` container, after we update the   
 **high scores** and **high score names** variables
-and right before the ``||loops:break||`` block,
+and right before the   
+``||loops:break||`` block,
 add the following blocks:
 
 -    ``||blockSettings:set setting ("high scores") to number array||``

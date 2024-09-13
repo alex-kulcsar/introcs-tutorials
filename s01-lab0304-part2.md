@@ -11,31 +11,44 @@ Let's figure out where we need to insert our high score. To do that, we will
 go through the high scores table one entry at a time. If we find a score that
 is smaller, then we've found the right spot!
 
-1.   **At the beginning** of your ``||info:on life zero||`` container,
-insert another ``||loops:for||`` ``||variables(loops):index||``
-``||loops:from 0 to (4)||`` container.
-Again, the ``||variables(loops):index||`` variable will count through the
+1.  **At the beginning** of your   
+``||info(noclick):on life zero||``   
+container, insert another   
+``||loops:for||`` ``||variables(loops):index||``
+``||loops:from 0 to (4)||``   
+container. Again, the   
+``||variables(loops):index||`` variable will count through the
 indexes of your array.
-1.   Again, in place of the ``||loops:(4)||`` value in your loop, use blocks
-to build the following expression:
-``||variables:number of high scores||`` ``||math:- (1)||``.
-Feel free to duplicate the blocks from your other ``||loops:for||`` loop
-for that expression.
-1.   Inside of this new ``||loops:for||`` loop,
-add an ``||logic:if (true) then||`` block.
-1.   Replace the ``||logic:(true)||`` value with blocks that build
-the following conditional statement:
+1.  Again, in place of the   
+``||loops(noclick):(4)||`` value in your loop, use blocks
+to build the following expression:   
+``||variables:number of high scores||`` ``||math:- (1)||``.   
+Feel free to duplicate the blocks from your other   
+``||loops(noclick):for||`` loop for that expression.
+1.  Inside of this new   
+``||loops(noclick):for||``   
+loop, add an   
+``||logic:if (true) then||``   
+block.
+1.  Replace the   
+``||logic(noclick):(true)||`` value with blocks that build
+the following conditional statement:   
 ``||logic:if||`` ``||info:score||``
-``||logic:is greater than||`` ``||variables:high scores||``
-``||arrays:get value at||`` ``||variables:index||``
-     -    Remember to drag the ``||varibles:index||`` variable from the
-          top of your ``||loops:for||`` loop.
-     -    If the editor has changed the name of the variable to something
-          like ``||variables:index2||``, then that's OK! Use whatever variable
-          is shown in the top of your ``||loops:for||`` loop.
-     -    The ``||info:score||`` value is in the ``||info:Info||`` drawer.
+``||logic:is greater than||`` ``||variables(arrays):high scores||``
+``||arrays:get value at||`` ``||variables(noclick):index||``
+    -   Remember to drag the   
+    ``||varibles(noclick):index||``   
+    variable from the top of your   
+    ``||loops:for||`` loop.
+    -   If the editor has changed the name of the variable to something
+        like   
+        ``||variables:index2||``,   
+        then that's OK! Use whatever variable
+        is shown in the top of your   
+        ``||loops:for||`` loop.
+    -   The ``||info:score||`` value is in the ``||info:Info||`` drawer.
 
-Feel free to check to hint to verify your code. In the next step, we'll
+Feel free to check the hint to verify your code. In the next step, we'll
 be able to test your logic!
 
 ```blocks
@@ -65,9 +78,10 @@ If the player gets a high score, then we should collect their name.
 Let's do that now!
 
 1.    Create a new variable called something like **playerName**.
-1.    Inside of the empty ``||logic:if||`` block that you just added
-      to your code, prompt the player for their name and place the value
-      in your new variable.
+1.    Inside of the empty   
+``||logic(noclick):if||`` block that you just added
+to your code, prompt the player for their name and place the value
+in your new variable.
 
 Now, play your game and try to get a high score! If you do, then your project
 should ask you for your name.
@@ -92,13 +106,15 @@ info.onLifeZero(function () {
 Now, let's add the player's score to the table!
 
 After asking for the player's name, add the blocks described below.
-These blocks all go inside of the ``||logic:if||`` container.
+These blocks all go inside of the   
+``||logic(noclick):if||`` container.
 
-1.    ``||variables:high scores||`` ``||arrays:insert at||``
-``||variables:index||`` ``||arrays:value||``
+1.    ``||variables(arrays):high scores||`` ``||arrays:insert at||``
+``||variables(noclick):index||`` ``||arrays:value||``
 ``||info:score||``.
-1.    ``||variables:high score names||`` ``||arrays:insert at||``
-``||variables:index||`` ``||arrays:value||``
+1.    ``||variables(arrays):high score names||``
+``||arrays:insert at||``
+``||variables(noclick):index||`` ``||arrays:value||``
 ``||variables:playerName||``.
 
 Again, play your game and try to get a high score! If you do, then your project
@@ -129,17 +145,22 @@ info.onLifeZero(function () {
 Inserting those values into our arrays makes them too long. Let's get rid of the
 extra entries at the end of our arrays.
 
-Add the following blocks inside of your ``||logic:if||`` container,
+Add the following blocks inside of your   
+``||logic:if||`` container,
 beneath the ones that you already have there.
 
-1.   ``||arrays:remove last value from||`` ``||variables:high scores||``
-1.   ``||arrays:remove last value from||`` ``||variables:high score names||``
+1.   ``||arrays:remove last value from||``
+``||variables(arrays):high scores||``
+1.   ``||arrays:remove last value from||``
+``||variables(arrays):high score names||``
 1.   ``||loops:break||``
 
 Remember that error that we mentioned in the previous step? Once we add
 the player's name and score to the arrays, then we are done. We don't need to
-continue with the rest of the entries in the array. The ``||loops:break||``
-block jumps out of the ``||loops:for||`` loop early.
+continue with the rest of the entries in the array. The   
+``||loops:break||``
+block jumps out of the   
+``||loops:for||`` loop early.
 
 You can find that block in the ``||loops:Loops||`` drawer.
 

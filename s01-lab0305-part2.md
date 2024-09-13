@@ -10,14 +10,20 @@ In this tutorial, you will use a built-in block to do the same thing.
 To create an animated sprite using the built-in blocks takes just two
 simple steps!
 
-1.   In your ``||loops:on start||`` container, create a new sprite.
+1.   In your   
+``||loops(noclick):on start||``   
+container, create a new sprite.
      -    Name your sprite anything you like.
      -    As before, don't worry about setting an image. We will do that
      next.
-1.   Open the **Advanced** section of the toolbox. From the
-``||animation:Animation||`` drawer, add an
+1.   Open the   
+**Advanced**   
+section of the toolbox. From the   
+``||animation:Animation||``   
+drawer, add an   
 ``||animation:animate||`` ``||variables(animation):mySprite||``
-``||animation:frames [ ] interval (ms) (500) loop (OFF)||`` block.
+``||animation:frames [ ] interval (ms) (500) loop (OFF)||``   
+block.
      -    Set the variable name to your sprite's variable name.
      -    Select the blank animation. (It's the block next to the word
      *frames*.) Switch to the gallery and select any of the built-in

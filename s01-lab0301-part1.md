@@ -20,14 +20,14 @@ for (let index = 0; index < 6; index++) {
 
 Let's create a hero character and drop food randomly on the screen.
 
-1.   Create a sprite for your hero character.
-     -    Give the sprite's variable an appropriate name.
-     -    Give the sprite an image.
-1.   Allow the player to move the hero sprite around the screen.
-1.   Whenever the player presses **A**, add a sprite to the screen.
-     -    Give the new sprite's variable an appropriate name.
-     -    Give the sprite an image.
-     -    Place the sprite at a random location on the screen.
+1.  Create a sprite for your hero character.
+    -   Give the sprite's variable an appropriate name.
+    -    Give the sprite an image.
+1.  Allow the player to move the hero sprite around the screen.
+1.  Whenever the player presses **A**, add a sprite to the screen.
+    -   Give the new sprite's variable an appropriate name.
+    -   Give the sprite an image.
+    -   Place the sprite at a random location on the screen.
 
 Run your project and verify that it works as described.
 Check the hint if you need any help.
@@ -54,11 +54,13 @@ the game?
 
 There is a better way to do this: Use a **repeat** loop.
 
-1.    From the ``||loops:Loops||`` drawer, drop a
-``||loops:repeat (4) times||`` loop into your
-``||controller: on (A) button (pressed)||`` container.
+1.    From the ``||loops:Loops||`` drawer, drop a   
+``||loops:repeat (4) times||``   
+loop into your   
+``||controller(noclick): on (A) button (pressed)||``   
+container.
 1.    Move the other blocks in that container to the **inside** of the
-``||loops:repeat||`` container.
+``||loops(noclick):repeat||`` container.
 1.    Change the number of repeats to **2**.
 
 Run your project and verify that the player drops **two** pieces of food
@@ -92,17 +94,17 @@ answer the questions below.
 Instead of dropping food at random locations, let's throw projectiles
 from the player.
 
-1.   **Delete** all of the blocks inside of the ``||loops:repeat||`` container.
+1.  **Delete** all of the blocks inside of the ``||loops(noclick):repeat||`` container.
 Keep the loop, though!
-1.   Add the following blocks to your ``||loops:repeat||`` loop:
-     1.    Create a variable called **speedX**.
-     1.    Set **speedX** to a random value between 10 and 40.
-     1.    Create another variable called **speedY**.
-     1.    Add a block so that it reads:
-     ``||variables:set speedY to||`` ``||math:50 -||``
-     ``||variables:speedX||``.
-     1.    Create a projectile that starts at your hero sprite with
-     velocities **speedX** and **speedY**.
+1.  Add the following blocks to your ``||loops(noclick):repeat||`` loop:
+    1.   Create a variable called **speedX**.
+    1.   Set **speedX** to a random value between 10 and 40.
+    1.   Create another variable called **speedY**.
+    1.   Add block so that it reads:   
+    ``||variables(noclick):set speedY to||`` ``||math(noclick):50 -||``
+    ``||variables(noclick):speedX||``.
+    1.   Create a projectile that starts at your hero sprite with
+    velocities **speedX** and **speedY**.
 
 These blocks will send the projectiles in random directions, but will
 keeps their speeds roughly the same.

@@ -59,13 +59,18 @@ Let's replace these repetitive blocks with a **for** loop.
 
 1.    Drag the blocks that create the sprites off to the side.
 We will use a couple of them shortly.
-1.    At the bottom of the ``||loops:on start||`` container,
-add a ``||loops:for||`` ``||variables(loops):index||``
-``||loops:from 0 to (4)||`` block.
-1.    Change the ``||loops:for||`` loop so that ``||variables(loops):index||``
+1.    At the bottom of the   
+``||loops(noclick):on start||``   
+container, add a   
+``||loops:for||`` ``||variables(loops):index||``
+``||loops:from 0 to (4)||``   
+block.
+1.    Change the ``||loops(noclick):for||`` loop so that   
+``||variables(noclick):index||``   
 counts from **0** to **3** (or any other number that you like).
 1.    Drag **just one pair** of blocks that creates and places a sprite
-on the screen into the ``||loops:for||`` container.
+on the screen into the   
+``||loops(noclick):for||`` container.
 
 Run your project and check the simulator. It might not look like it's
 working correctly, but it is! We need to make one minor adjustment, though.
@@ -88,9 +93,11 @@ for (let index = 0; index <= 4; index++) {
 The ``||loops:for||`` loop uses the ``||variables(loops):index||`` variable
 to count, but we are not using it inside of our loop! Let's fix that.
 
--    From the top of the ``||loops:for||`` container, drag a copy of the
-``||variables(loops):index||`` variable and drop it into the place
-that is being multiplied by ``||variables:distance||``.
+-    From the top of the   
+``||loops(noclick):for||`` container, drag a copy of the   
+``||variables(noclick):index||`` variable and drop it into the place
+that is being multiplied by   
+``||variables(noclick):distance||``.
 
 Run your project again and see that the ducks are in a row again!
 
@@ -126,8 +133,8 @@ is the same shape and color as any other variable.
 If you don't like the name of the loop control variable,
 you can drop one of your own in its place. Give it a try!
 -    Let's say you want to draw a grid of sprites on the screen,
-like the image below:
-![Ducks in a grid.](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L03.01.P02.duck_grid.png)
+like the image below:   
+![Ducks in a grid.](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L03.01.P02.duck_grid.png)   
 How might you do that?
 -    Create an interesting pattern of sprites.
 Challenge your "helping trios" teammates to duplicate your pattern using loops.

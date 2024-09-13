@@ -8,10 +8,8 @@ Have you created a flipbook? Flipbooks have images on each page. If you
 flip through the pages quickly, then it looks like the image is moving!
 
 This is the style of animation that MakeCode Arcade uses.
-It is called *frame-based animation*.
-
-![An example of a flipbook.](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L03.05.P01.flipbook.jpg)
-
+It is called *frame-based animation*.   
+![An example of a flipbook.](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L03.05.P01.flipbook.jpg)   
 Image credit: John Barnes Linnett. Public domain.
 
 ## I like to do things the hard way!
@@ -22,13 +20,19 @@ but sometimes, you will need to animate a sprite yourself.
 1.   Create a new variable that will hold the frames (images) of your
 animation. Name your variable something like **frameList**.
 1.   Set your new variable to an array of images.
-     1.   Drag a ``||variables:set (frameList) to (0)||`` block into your
-     ``||loops:on start||`` block.
-     1.   Drag an ``||arrays:empty array||`` block into the block for your
+     1.   Drag a   
+     ``||variables:set (frameList) to (0)||``   
+     block into your   
+     ``||loops(noclick):on start||`` block.
+     1.   Drag an   
+     ``||arrays:empty array||``   
+     block into the block for your
      variable. This changes the variable into an array.
      1.   Select the **(+)** sign to add an element to your array.
      Notice that the new element is blank.
-     1.   Drag an empty image from the **Images** drawer into the blank
+     1.   Drag an empty image from the   
+     **Images**   
+     drawer into the blank
      space in your array. Your array now is an array of images.
 1.   Edit the new image in your array. Choose a bright color and fill in
 a single pixel near the center of the image.
@@ -177,13 +181,18 @@ img`
 Now, we need a place for our images. Let's create a sprite, and then let's
 keep track of which frame in our array we're viewing.
 
-1.   Add a block to your ``||loops:on start||`` container that creates a
+1.   Add a block to your   
+``||loops(noclick):on start||``   
+container that creates a
 sprite.
      -    Give the sprite variable an appropriate name.
      -    It does not need an image. We'll take care of that later.
-1.   Create a new variable to store your **frameNumber**.
-1.   Add a block to ``||loops:on start||`` that sets the
-frame number to **zero**.
+1.   Create a new variable to store your   
+**frameNumber**.
+1.   Add a block to   
+``||loops(noclick):on start||`` that sets the
+frame number to   
+**zero**.
 
 Check the hint if you need any help.
 
@@ -198,10 +207,13 @@ let frameNumber = 0
 
 Now, let's animate your sprite!
 
-1.   Add an ``||game:on game update every (500) ms||`` container to your
+1.   Add an   
+``||game:on game update every (500) ms||``   
+container to your
 workspace.
 1.   Add these blocks to your new container:
-     -    Use blocks from the ``||sprites:Sprites||`` and the
+     -    Use blocks from the   
+     ``||sprites:Sprites||`` and the   
      ``||arrays:Arrays||`` drawer to set the sprite's image to the
      current frame in the array.
      -    Increment the current frame number.
@@ -210,9 +222,9 @@ workspace.
 Run your project -- your sprite should be animated! The animation should
 repeat without errors.
 
-Try different values in the
-``||game:on game update every (500) ms||`` container
-to speed up or slow down the animation.
+Try different values in the   
+``||game:on game update every (500) ms||``   
+container to speed up or slow down the animation.
 
 Check the hint if you need any help.
 

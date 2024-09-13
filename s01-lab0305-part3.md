@@ -10,7 +10,9 @@ In this tutorial, we will use an extension to do some more complex actions!
 
 First, we need a hero sprite for our project.
 
-1.    In your ``||loops:on start||`` container, add blocks that
+1.    In your   
+``||loops(noclick):on start||``   
+container, add blocks that
 do the following:
       -    Create a hero sprite for your player.
       -    Give the sprite an appropriate image and variable name.
@@ -27,12 +29,15 @@ movingSprite.setStayInScreen(true)
 
 ## Show some character!
 
-We've added an extension for this tutorial. Notice the new
+We've added an extension for this tutorial. Notice the new   
 ``||characterAnimations:Character||`` drawer in your toolbox.
 
-1.   Add a ``||variables(characterAnimations):mySprite||``
-``||characterAnimations:loop frames [ ] (500) when (not moving)||``
-block to the bottom of your ``||loops:on start||`` container.
+1.   Add a   
+``||variables(characterAnimations):mySprite||``
+``||characterAnimations:loop frames [ ] (500) when (not moving)||``   
+block to the bottom of your   
+``||loops(noclick):on start||``   
+container.
 1.   Change the variable name to your hero sprite's variable name.
 
 Give this new block a try! Use the built-in images and animations in the
