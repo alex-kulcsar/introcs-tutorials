@@ -31,9 +31,15 @@ animation. Name your variable something like **frameList**.
      1.   Select the **(+)** sign to add an element to your array.
      Notice that the new element is blank.
      1.   Drag an empty image from the   
+     ``||images:Images||``   
      **Images**   
      drawer into the blank
-     space in your array. Your array now is an array of images.
+     space in your array. The   
+     ``||images:Images||``   
+     **Images**   
+     drawer is in the   
+     **Advanced** section of the toolbox.
+     Your array now is an array of images!
 1.   Edit the new image in your array. Choose a bright color and fill in
 a single pixel near the center of the image.
 1.   Duplicate the image block and add it as a new element in the array.

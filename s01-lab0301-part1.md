@@ -54,7 +54,8 @@ the game?
 
 There is a better way to do this: Use a **repeat** loop.
 
-1.    From the ``||loops:Loops||`` drawer, drop a   
+1.    From the   
+``||loops:Loops||`` drawer, drop a   
 ``||loops:repeat (4) times||``   
 loop into your   
 ``||controller(noclick): on (A) button (pressed)||``   
@@ -100,9 +101,9 @@ Keep the loop, though!
     1.   Create a variable called **speedX**.
     1.   Set **speedX** to a random value between 10 and 40.
     1.   Create another variable called **speedY**.
-    1.   Add block so that it reads:   
-    ``||variables(noclick):set speedY to||`` ``||math(noclick):50 -||``
-    ``||variables(noclick):speedX||``.
+    1.   Add blocks so that it reads:   
+    ``||variables:set speedY to||`` ``||math:50 -||``
+    ``||variables:speedX||``.
     1.   Create a projectile that starts at your hero sprite with
     velocities **speedX** and **speedY**.
 

@@ -17,7 +17,7 @@ container, insert another
 ``||loops:for||`` ``||variables(loops):index||``
 ``||loops:from 0 to (4)||``   
 container. Again, the   
-``||variables(loops):index||`` variable will count through the
+``||variables(noclick):index||`` variable will count through the
 indexes of your array.
 1.  Again, in place of the   
 ``||loops(noclick):(4)||`` value in your loop, use blocks
@@ -39,13 +39,13 @@ the following conditional statement:
     -   Remember to drag the   
     ``||varibles(noclick):index||``   
     variable from the top of your   
-    ``||loops:for||`` loop.
+    ``||loops(noclick):for||`` loop.
     -   If the editor has changed the name of the variable to something
         like   
-        ``||variables:index2||``,   
+        ``||variables(noclick):index2||``,   
         then that's OK! Use whatever variable
         is shown in the top of your   
-        ``||loops:for||`` loop.
+        ``||loops(noclick):for||`` loop.
     -   The ``||info:score||`` value is in the ``||info:Info||`` drawer.
 
 Feel free to check the hint to verify your code. In the next step, we'll
@@ -146,7 +146,7 @@ Inserting those values into our arrays makes them too long. Let's get rid of the
 extra entries at the end of our arrays.
 
 Add the following blocks inside of your   
-``||logic:if||`` container,
+``||logic(noclick):if||`` container,
 beneath the ones that you already have there.
 
 1.   ``||arrays:remove last value from||``

@@ -48,9 +48,9 @@ that is multiplied with the **distance** variable?
 
 We have a loop that does *exactly* that!
 It counts starting at zero, and counts up to a number that you choose.
-It's the ``||loops:for||`` block!
+It's the ``||loops(noclick):for||`` block!
 
-Move to the next step to learn how to use the ``||loops:for||`` loop
+Move to the next step to learn how to use the ``||loops(noclick):for||`` loop
 in this project.
 
 ## Step aside!
@@ -67,7 +67,8 @@ container, add a
 block.
 1.    Change the ``||loops(noclick):for||`` loop so that   
 ``||variables(noclick):index||``   
-counts from **0** to **3** (or any other number that you like).
+counts from   
+**0** to **3** (or any other number that you like).
 1.    Drag **just one pair** of blocks that creates and places a sprite
 on the screen into the   
 ``||loops(noclick):for||`` container.
@@ -90,7 +91,7 @@ for (let index = 0; index <= 4; index++) {
 
 ## Use the index!
 
-The ``||loops:for||`` loop uses the ``||variables(loops):index||`` variable
+The ``||loops(noclick):for||`` loop uses the ``||variables(noclick):index||`` variable
 to count, but we are not using it inside of our loop! Let's fix that.
 
 -    From the top of the   
@@ -128,7 +129,7 @@ Try these extensions if you have time:
 -    Change the numbers and notice how the sprites are drawn on the screen.
 -    Can you generate a single column of sprites instead of a row?
 -    Can you generate a series of sprites drawn diagonally?
--    Notice that the loop control variable, ``||variables:index||``,
+-    Notice that the loop control variable, ``||variables(noclick):index||``,
 is the same shape and color as any other variable.
 If you don't like the name of the loop control variable,
 you can drop one of your own in its place. Give it a try!

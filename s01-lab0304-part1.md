@@ -98,8 +98,8 @@ indexes of your array.
 1.   In place of the   
 ``||loops(noclick):(4)||`` value in your loop, use blocks
 to build the following expression:   
-``||variables(noclick):number of high scores||``
-``||math(noclick):- (1)||``.   
+``||variables:number of high scores||``
+``||math:- (1)||``.   
 Remember that computers start counting at zero, and the highest index
 for an array is one less than its size.
 1.   In the   
@@ -110,10 +110,12 @@ Set the
      (In other words, you are adding to the existing value.)
      1.   ``||variables(arrays):high score names||``
      ``||arrays:get value at||`` ``||variables(arrays):index||``
-     1.   The string **`: `**. (That's a colon followed by a space.)
+     1.   The string   
+     **`: `**. (That's a colon followed by a space.)
      1.   ``||variables(arrays):high scores||``
      ``||arrays:get value at||`` ``||variables(arrays):index||``
-     1.   The string **`\n`**. This special character
+     1.   The string   
+     **`\n`**. This special character
      will put each high score on a separate line.
 1.   To your   
 ``||info(noclick):on life zero||``   
