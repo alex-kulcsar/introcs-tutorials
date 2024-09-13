@@ -15,10 +15,16 @@ allowed on the screen. Call it something like **maxProjectiles**.
 1.   We also need a new variable that will keep track of the number of
 projectiles currently on the screen. Call it something like
 **projectileCount**.
-1.   In your ``||loops:on start||`` container, set the value of
-``||variables:maxProjectiles||`` to **3**.
-1.   In your ``||loops:on start||`` container, set the value of
-``||variables:projectileCount||`` to **0**.
+1.   In your   
+``||loops(noclick):on start||``   
+container, set the value of   
+``||variables:maxProjectiles||``   
+to **3**.
+1.   In your   
+``||loops(noclick):on start||``   
+container, set the value of   
+``||variables:projectileCount||``   
+to **0**.
 
 Check the hint if you need help.
 
@@ -42,19 +48,24 @@ projectileCount = 0
 
 Now we need to *increment* our variable when we create a projectile.
 
-1.   In your ``||controller:on (A) button (pressed)||`` container,
-add a block that changes the ``||variables:projectileCount||``
+1.   In your   
+``||controller(noclick):on (A) button (pressed)||``   
+container,
+add a block that changes the   
+``||variables:projectileCount||``   
 variable by **1**.
 
 We also need to *decrement* our variable when a projectile is destroyed.
 The easiest way to do this is to add a new event handler.
 
-1.   From the ``||sprites:Sprites||`` drawer, add an
+1.   From the ``||sprites:Sprites||`` drawer, add an   
 ``||sprites:on destroyed||`` ``||variables(sprites):sprite||``
-``||sprites:of kind (Player)||``.
+``||sprites:of kind (Player)||``   
+block.
 1.   In this new container, change the kind to **Projectile**.
 1.   In this new container,
-add a block that changes the ``||variables:projectileCount||``
+add a block that changes the   
+``||variables:projectileCount||``   
 variable by **-1**.
 
 Run your project. You should not see any difference from before. Why not?
@@ -83,13 +94,17 @@ We are counting the number of projectiles on the screen,
 but we aren't doing anything to limit them.
 Let's fix that!
 
-1.   To the **top** of your ``||controller:on (A) button (pressed)||`` container,
-add an ``||logic:if||`` block.
-1.   Move all of the blocks beneath the ``||logic:if||`` block
-inside of it.
-1.   Add blocks so that the ``||logic:if||`` block reads:
-``||logic:if||`` ``||variables(logic):projectileCount||``
-``||logic:is less than||`` ``||variables(logic):maxProjectiles||``.
+1.   To the **top** of your   
+``||controller(noclick):on (A) button (pressed)||``   
+container, add an   
+``||logic:if||``   
+block.
+1.   Move all of the blocks beneath the   
+``||logic(noclick):if||``   
+block inside of it.
+1.   Add blocks so that the ``||logic:if||`` block reads:   
+``||logic(noclick):if||`` ``||variables(noclick):projectileCount||``
+``||logic(noclick):is less than||`` ``||variables(noclick):maxProjectiles||``.
 
 Run your project and see if it limits the number of projectiles that you are
 able to create. View the hint if you need help.

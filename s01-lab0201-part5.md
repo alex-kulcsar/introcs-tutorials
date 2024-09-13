@@ -9,16 +9,18 @@ Time to add some sound effects to your project!
 Let's add a sound whenever a projectile is fired.
 We'll use a new event handler for this.
 
-1.   From the ``||sprites:Sprites||`` drawer, add an
+1.   From the ``||sprites:Sprites||`` drawer, add an   
 ``||sprites:on created||`` ``||variables(sprites):sprite||``
-``||sprites:of kind (Player)||`` container to your workspace.
-1.   Change the block so that it reads as follows:
-``||sprites:on created sprite of kind Projectile||``
-1.   Into your new container, drag a
-``||music:play sound (ba ding) until done||`` block from the
+``||sprites:of kind (Player)||``   
+container to your workspace.
+1.   Change the block so that it reads as follows:   
+``||sprites(noclick):on created sprite of kind Projectile||``
+1.   Into your new container, drag a   
+``||music:play sound (ba ding) until done||``   
+block from the
 ``||music:Music||`` drawer.
 1.   Change the sound to **pew pew**.
-1.   Change the playbock mode to **in background**.
+1.   Change the playback mode to **in background**.
 
 This new event handler will run anytime a projectile is created in your project.
 
@@ -38,16 +40,18 @@ sprites.onCreated(SpriteKind.Projectile, function (sprite) {
 Now, let's add a sound whenever an enemy is destroyed.
 We'll use yet another new event handler for this.
 
-1.   From the ``||sprites:Sprites||`` drawer, add an
+1.   From the ``||sprites:Sprites||`` drawer, add an   
 ``||sprites:on destroyed||`` ``||variables(sprites):sprite||``
-``||sprites:of kind (Player)||`` container to your workspace.
-1.   Change the block so that it reads as follows:
-``||sprites:on created sprite of kind Enemy||``
-1.   Into your new container, drag a
-``||music:play sound (ba ding) until done||`` block from the
+``||sprites:of kind (Player)||``   
+container to your workspace.
+1.   Change the block so that it reads as follows:   
+``||sprites(noclick):on created sprite of kind Enemy||``
+1.   Into your new container, drag a   
+``||music:play sound (ba ding) until done||``   
+block from the
 ``||music:Music||`` drawer.
 1.   Change the sound to **small crash**.
-1.   Change the playbock mode to **in background**.
+1.   Change the playback mode to **in background**.
 
 This new event handler will run anytime an enemy is destroyed.
 

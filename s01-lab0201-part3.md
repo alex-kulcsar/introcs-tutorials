@@ -9,7 +9,9 @@ but nothing happens to the enemies when they are hit. Let's fix that!
 
 First, let's give the player a starting score and set of lives.
 
-1.   At the bottom of your ``||loops:on start||`` container, add blocks
+1.   At the bottom of your   
+``||loops(noclick):on start||``   
+container, add blocks
 from the ``||info:Info||`` drawer to give the player:
      1.   A starting score
      1.   A starting set of lives.
@@ -34,17 +36,18 @@ info.setLife(3)
 Now, let's make our projectiles remove the enemy it strikes.
 Let's add to our player's score, too!
 
-1.   From the ``||sprites:Sprites||`` drawer, add an
+1.   From the ``||sprites:Sprites||`` drawer, add an   
 ``||sprites:on||`` ``||variables(sprites):sprite||``
 ``||sprites:of kind (Player) overlaps||`` ``||variables(sprites):otherSprite||``
-``||sprites:of kind (Player)||`` container to your workspace.
-1.   Change the kinds so that the block reads as follows:
-``||sprites:on sprite of kind Projectile overlaps otherSprite of kind Enemy||``
+``||sprites:of kind (Player)||``   
+container to your workspace.
+1.   Change the kinds so that the block reads as follows:   
+``||sprites(noclick):on sprite of kind Projectile overlaps otherSprite of kind Enemy||``
 1.   Into your new container, drag a block from the ``||info:Info||`` drawer
 that increases the player's score. Feel free to change the value to anything
 you like.
-1.   Add more blocks so that ``||variables(sprites):sprite||`` and
-``||variables(sprites):otherSprite||`` are destroyed. Use any effect
+1.   Add more blocks so that ``||variables(noclick):sprite||`` and
+``||variables(noclick):otherSprite||`` are destroyed. Use any effect
 that you like!
 
 Test your project to see if your code runs as expected.

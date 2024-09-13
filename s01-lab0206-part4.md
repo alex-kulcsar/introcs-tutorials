@@ -26,7 +26,9 @@ To being, let's ask the player for a difficulty level.
 
 1.   Create a new variable that will store the player's choice of difficulty.
 Give the variable a good name. How about **difficulty**?
-1.   In your ``||loops:on start||`` container, ask the player for a
+1.   In your   
+``||loops(noclick):on start||``   
+container, ask the player for a
 difficulty number and store it in your new variable.
 
 Run your project to make sure nothing has changed after choosing a difficulty.
@@ -50,12 +52,16 @@ let difficulty = game.askForNumber("Difficulty?")
 
 Now, let's set some values to reflect the player's difficulty selection.
 
-1.   At the **bottom** of your ``||loops:on start||`` container,
-add an ``||logic:if (true) then [] else []||`` block.
+1.   At the **bottom** of your   
+``||loops(noclick):on start||``   
+container, add an   
+``||logic:if (true) then [] else []||``   
+block.
 1.   Add enough branches to test three options for our difficulty.
 1.   Add conditional statements to test whether the player selected
 a difficulty of **1**, **2**, or **3**.
-1.   In each branch of the ``||logic:if||`` block, set the three variables
+1.   In each branch of the ``||logic(noclick):if||`` block,
+set the three variables
 to the values that you noted at the beginning of this activity.
 
 Run your project to test the three different difficulties.

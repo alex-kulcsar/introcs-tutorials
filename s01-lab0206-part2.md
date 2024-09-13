@@ -9,11 +9,15 @@ Let's update your game so that enemies fall faster as you play!
 
 We need to keep track of the current speed of the enemies.
 
-1.   Take a look at your ``||game:on game update every (1000) ms||`` container.
+1.   Take a look at your   
+``||game(noclick):on game update every (1000) ms||``   
+container.
 Make a note of the **vy** value for your enemy sprites.
 1.   Create a new variable that will keep track of the enemy speed.
 Call it something like **enemySpeed**.
-1.   In your ``||loops:on start||`` container, set the value of your new
+1.   In your   
+``||loops(noclick):on start||``   
+container, set the value of your new
 variable to the value that you noted in Step 1.
 1.   Drop your variable in place of the number for your **vy** value.
 
@@ -36,9 +40,13 @@ game.onUpdateInterval(1000, function () {
 
 Now, let's make the game more difficult the longer you play.
 
-1.   Find the ``||sprites:on overlap||`` container where enemies are
+1.   Find the   
+``||sprites(noclick):on overlap||``   
+container where enemies are
 destroyed when they collide when a projectile.
-1.   In that ``||sprites:on overlap||`` container, add a block that
+1.   In that   
+``||sprites(noclick):on overlap||``   
+container, add a block that
 changes the enemy speed variable. Set the change to a small value.
 
 Run your project and see how it works.

@@ -11,7 +11,9 @@ First, let's determine the enemy's speed limit.
 
 1.   Create a new variable that sets the enemy speed limit.
 Call it something like **maxEnemySpeed**.
-1.   In your ``||loops:on start||`` container, set your new variable to
+1.   In your   
+``||loops(noclick):on start||``   
+container, set your new variable to
 a reasonable speed limit.
 
 Run your project to make sure nothing has changed ... yet!
@@ -40,15 +42,18 @@ maxEnemySpeed = 150
 
 Now, let's enforce our new speed limit.
 
-1.   Go back to that ``||sprites:on overlap||`` container where enemies are
+1.   Go back to that   
+``||sprites(noclick):on overlap||``   
+container where enemies are
 destroyed when they collide when a projectile.
 1.   Add blocks **to the bottom** of that container
 to create the following ``||logic:if||`` statement:
 
-``||logic:if||`` ``||variables(logic):enemyVelocity||``
-``||logic:is greater than||`` ``||variables(logic):maxEnemySpeed||`` ``||logic:then||``
+``||logic(noclick):if||`` ``||variables(noclick):enemyVelocity||``
+``||logic(noclick):is greater than||``
+``||variables(noclick):maxEnemySpeed||`` ``||logic(noclick):then||``
 
-``||variables(logic):set (enemyVelocity) to (maxEnemySpeed)||``
+``||variables(noclick):set (enemyVelocity) to (maxEnemySpeed)||``
 
 Run your project to test your speed limit. Try different speed limit values
 and see what works best for your project.

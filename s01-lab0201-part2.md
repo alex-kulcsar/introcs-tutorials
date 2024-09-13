@@ -8,11 +8,14 @@ A game without enemies isn't much of a game. Let's add some!
 
 Let's park some enemies at the top of the screen.
 
-1.   From the ``||game:Game||`` drawer, add an
-``||game:on game update every (500) ms||`` container block to your workspace.
-1.   Change the interval from `500` ms to `1000` ms.
-**Question**: How long is 1000 milliseconds?
-1.   Within your new ``||game:on game update every (1000) ms||`` container,
+1.   From the ``||game:Game||`` drawer, add an   
+``||game:on game update every (500) ms||``   
+container block to your workspace.
+1.   Change the interval from `500` ms to `1000` ms.   
+**Question**: How long is 1,000 milliseconds?
+1.   Within your new   
+``||game(noclick):on game update every (1000) ms||``   
+container,
 add blocks to accomplish the following:
      1.   Add an enemy sprite to the screen.
      1.   Give the enemy sprite variable an appropriate name.
@@ -38,13 +41,16 @@ game.onUpdateInterval(1000, function () {
 
 Now, let's move the enemies toward the player!
 
-1.   At the bottom of your ``||game:on game update every (1000) ms||``
-container, add a ``||sprites:set||`` ``||variables(sprites):mySprite||``
-``||sprites:velocity to vx (50) vy (50)||`` block.
+1.   At the bottom of your   
+``||game(noclick):on game update every (1000) ms||``   
+container, add a   
+``||sprites:set||`` ``||variables(sprites):mySprite||``
+``||sprites:velocity to vx (50) vy (50)||``   
+block.
 1.   Change the variable name to your enemy sprite.
 1.   Change the velocity values so that the sprites move slowly
 toward the bottom of the screen.
-1.   Add another block so that the enemy sprite is detroyed when it leaves
+1.   Add another block so that the enemy sprite is destroyed when it leaves
 the screen.
 
 Test your code to make sure it runs as you expect it.

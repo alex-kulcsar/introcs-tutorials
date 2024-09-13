@@ -13,7 +13,10 @@ We can create our own variables, too!
 Let's learn about a new block that you can use to display a message on
 the screen.
 
-1.   In your ``||loops:on start||`` container, add a ``||game:splash ("")||``
+1.   In your   
+``||loops(noclick):on start||``   
+container, add a   
+``||game:splash ("")||``   
 block. You can find that block in the ``||game:Game||`` drawer of the toolbox.
 1.   Type a phrase into the new block. Any phrase will do!
 
@@ -34,9 +37,12 @@ Click on **Advanced** to see the secret drawers in the toolbox!
 
 Check the hint to see a screenshot showing this secret drawer.
 
-1.   From the ``||text:Text||`` **Text** drawer, drag a
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**
-block into your ``||game:splash("")||``
+1.   From the   
+``||text:Text||`` **Text**   
+drawer, drag a   
+``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+block into your   
+``||game(noclick):splash("")||``   
 block.
 
 Run your project to see how these blocks work together.
@@ -52,31 +58,35 @@ game.splash("Hello" + "World")
 
 Let's learn more about how the **Join** block works.
 
-1.    Change the text in your
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")** block.
+1.    Change the text in your   
+``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+block.
 1.    Run your project and see how it's changed.
 1.    Do this a few times until your understand how this block works.
 
 Now, let's try something else!
 
--     Expand the 
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")** block.
+-     Expand the   
+``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+block.
 
 ~hint How do I expand a block?
 Some blocks have a plus sign on the right side of the block. Select the
 plus sign to expand it. The block will show more information!
 hint~
 
--    Now, collapse the 
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")** block.
+-    Now, collapse the   
+``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+block.
 
 ~hint How do I collapse a block?
 Some blocks will have a minus sign on the right side of the block.
 Select the minus sign to collapse it. The block will hide some information!
 hint~
 
-Play around with the 
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")** block.
+Play around with the   
+``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+block.
 Expand it, collapse it, and enter your own text.
 Watch how your project responds.
 
@@ -86,8 +96,9 @@ When you are ready, move on to the next step.
 
 Let's get our project ready for our first variable.
 
-1.   Expand or collapse your 
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")** block
+1.   Expand or collapse your   
+``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+block
 so that it shows three spaces for text.
 1.   In the first space, enter **You are ** *with a space at the end*.
 1.   In the second space, enter your age (or any number that you wish).
@@ -112,21 +123,28 @@ Let's get our project ready so that we can ask the player to enter their age.
 To do that, we need to create a variable.
 
 1.   Open the ``||variables:Variables||`` drawer.
-1.   At the top of the drawer, select the **Make a Variable...** button.
+1.   At the top of the drawer, select the   
+**Make a Variable...**   
+button.
 1.   In the dialog that appears, enter an appropriate name (like *age*).
 1.   Select the **Ok** button.
 
 Now, we have a variable that we can use!
 
-1.   Drag a ``||variables:set age to (0)||`` block **to the top** of your
-``||loops:on start||`` container.
+1.   Drag a   
+``||variables:set age to (0)||``   
+block **to the top** of your   
+``||loops(noclick):on start||``   
+container.
 1.   Set the variable's value to your own age.
 
 We've created a variable. Now, we need to use it!
 
-1.   From the ``||variables:Variables||`` drawer, drag an ``||variables:age||``
-block and drop it in the middle spot of your
-``||text:join ("You are ") ("0") (" years old.")||`` **join ("You are ") ("0") (" years old.")** block.
+1.   From the ``||variables:Variables||`` drawer, drag an   
+``||variables:age||``   
+block and drop it in the middle spot of your   
+``||text:join ("You are ") ("0") (" years old.")||`` **join ("You are ") ("0") (" years old.")**   
+block.
 1.   Run your project to see how it works.
 1.   Change the value of the **age** variable and watch how your program
 responds.
@@ -144,7 +162,9 @@ game.splash("You are " + age + " years old.")
 
 What happens when we switch the order of these two blocks?
 
-1.   Switch the order of the blocks in your ``||loops:on start||`` container.
+1.   Switch the order of the blocks in your   
+``||loops(noclick):on start||``   
+container.
 1.   Run your code to see how your program responds.
 
 **Question**: Does the order of these two blocks matter? Why or why not?
@@ -154,8 +174,9 @@ What happens when we switch the order of these two blocks?
 We have a variable now, but we still haven't asked the player for their age.
 Let's do that now!
 
-1.   From the ``||game:Game||`` drawer, drag an
-``||game:ask for number ("")||`` block and drop it into the red block
+1.   From the ``||game:Game||`` drawer, drag an   
+``||game:ask for number ("")||``   
+block and drop it into the red block
 that sets the value of your variable.
 1.   In this new block, enter a prompt for the player,
 like "How old are you?"

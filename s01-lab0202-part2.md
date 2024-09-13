@@ -67,7 +67,9 @@ Now, let's keep track of how many items the player has added to the screen.
 1.   Make a new variable for your project. This variable will store
 the number of sprites that the player has created. Give the variable
 an appropriate name.
-1.   Add a block to your ``||loops:on start||`` container that sets
+1.   Add a block to your   
+``||loops(noclick):on start||``   
+container that sets
 the value of the variable to zero.
 1.   In your event handler for the **A** button, add a block that changes
 the value of your variable by **1**.
@@ -97,8 +99,11 @@ are on the screen.
 Add an event handler for the **B** button to your workspace.
 In your event handler:
 
--    Use a ``||game:splash||`` block
-or a ``||sprite:say||`` block to display the value of your variable.
+-    Use a   
+``||game:splash||``   
+block or a   
+``||sprite:say||``   
+block to display the value of your variable.
 -    Feel free to use a **join** block to make your message more interesting!
 
 Run your project to see if it works as expected.
@@ -115,9 +120,10 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 
 Now, let's say that the player can pick up objects, too.
 
-1.   Add an ``||sprites:on overlap||`` event handler to your workspace.
-1.   Change the block so that it runs whenever the player collides with one
-of the other sprites.
+1.   Add an   
+``||sprites:on overlap||``   
+event handler to your workspace.
+1.   Change the block so that it runs when the player collides with another sprite.
 1.   In the event handler, destroy the sprite when the player touches it.
 1.   Remember to update your counting variable!
 

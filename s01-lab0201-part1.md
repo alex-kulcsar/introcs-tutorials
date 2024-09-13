@@ -13,7 +13,7 @@ We will be creating a "shooting gallery" game.
 First, let's add a hero sprite to our project.
 
 1.   From the ``||sprites:Sprites||`` drawer, add a block to your
-``||loops:on start||`` container to create your player's sprite.
+``||loops(noclick):on start||`` container to create your player's sprite.
 1.   Give your variable an appropriate name.
 1.   Give the sprite an appropriate image.
 1.   Add more blocks so that the player sprite:
@@ -35,8 +35,9 @@ controller.moveSprite(heroSprite)
 
 Let's add our first event handler.
 
-1.   From the ``||controller:Controller||`` drawer, drag an
-``||controller:on A button pressed||`` container block onto your workspace.
+-    From the ``||controller:Controller||`` drawer, drag an   
+``||controller:on A button pressed||``   
+container block onto your workspace.
 
 Any blocks that you place in this container will run whenever the player
 presses the **A** button on their controller.
@@ -51,8 +52,9 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 Now, let's launch a *projectile* every time the player presses the **A** button.
 
-1.   Inside the ``||controller:on A button pressed||`` container that you
-just added to your workspace, add a ``||sprites:Sprites||`` block that
+1.   Inside the ``||controller(noclick):on A button pressed||``
+container that you just added to your workspace,
+add a ``||sprites:Sprites||`` block that
 creates a new sprite. This sprite will be the projectile.
 1.   Change the sprite's kind to **Projectile**.
 1.   Give the sprite an appropriate image.
@@ -77,17 +79,24 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 Let's add some blocks so that the projectile looks like it was launched
 by the player.
 
-1.   To the bottom of your ``||controller:on A button pressed||`` container,
-add a ``||sprites:set||`` ``||variables(sprites):mySprite||``
-``||sprites:position to x (0) y (0)||`` block.
+1.   To the bottom of your   
+``||controller(noclick):on A button pressed||``   
+container, add a   
+``||sprites:set||`` ``||variables(sprites):mySprite||``
+``||sprites:position to x (0) y (0)||``   
+block.
 1.   Change the variable name to your projectile's name.
-1.   For the x-coordinate, add a ``||variables(sprites):mySprite||``
-``||sprites:x||`` block. You'll find that block in the
+1.   For the x-coordinate, add a   
+``||variables(sprites):mySprite||``
+``||sprites:x||``   
+block. You'll find that block in the
 ``||sprites:Sprites||`` drawer.
 1.   In the new block for the x-coordinate, change the variable name to
 your player's sprite.
-1.   Add another ``||variables(sprites):mySprite||``
-``||sprites:x||`` block for the y-coordinate. Use the dropdown to change the
+1.   Add another   
+``||variables(sprites):mySprite||``
+``||sprites:x||``   
+block for the y-coordinate. Use the dropdown to change the
 **x** to **y**. Also, change the variable name to match your player's sprite,
 just like before.
 
@@ -111,9 +120,12 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 It's not much of a projectile if it doesn't move! Let's make the projectile
 move up the screen when it is launched.
 
-1.   To the bottom of your ``||controller:on A button pressed||`` container,
-add a ``||sprites:set||`` ``||variables(sprites):mySprite||``
-``||sprites:velocity to vx (50) vy (50)||`` block. You'll find that block
+1.   To the bottom of your   
+``||controller(noclick):on A button pressed||``   
+container, add a   
+``||sprites:set||`` ``||variables(sprites):mySprite||``
+``||sprites:velocity to vx (50) vy (50)||``   
+block. You'll find that block
 in the ``||sprites:Sprites||`` drawer.
 1.   Change the variable name to your projectile.
 1.   Set the **vx** and **vy** values to make the projectile move up towards

@@ -9,9 +9,11 @@ Many programs need to test whether a number is even or odd. Let's write one!
 First, let's get a number to test from the player.
 
 1.   Create a variable that will store the player's number.
-1.   To your ``||loops:on start||`` container,
-     add blocks that ask the player for a number.
-     Store the response in your new variable.
+1.   To your   
+``||loops(noclick):on start||``   
+container,
+add blocks that ask the player for a number.
+Store the response in your new variable.
 
 Run your project to test your code. You can also check the hint.
 
@@ -25,15 +27,21 @@ Now, let's display a message to say whether the number is even.
 
 You guessed it: We need to write another conditional statement!
 
-1.   To the **bottom** of your ``||loops:on start||`` container,
-     add an ``||logic:if (true) then [] else []||`` block.
-1.   Use blocks from the ``||variables:Variables||``, ``||logic:Logic||``,
-     and ``||math:Math||`` drawers to make the block say the following:
-     ``||logic:if||`` ``||math:remainder of||``
-     ``||variables:(your variable)||`` ``||math:/ (2)||``
-     ``||logic:= (0) then||``.
-1.  In each half of the ``||logic:if||`` container, add blocks to display
-    an appropriate message.
+1.   To the **bottom** of your   
+``||loops(noclick):on start||``   
+container, add an   
+``||logic:if (true) then [] else []||``   
+block.
+1.   Use blocks from the   
+``||variables:Variables||``,   
+``||logic:Logic||``, and    
+``||math:Math||``    
+drawers to make the block say the following:   
+``||logic(noclick):if||`` ``||math(noclick):remainder of||``
+``||variables(noclick):(your variable)||`` ``||math(noclick):/ (2)||``
+``||logic(noclick):= (0) then||``.
+1.  In each half of the ``||logic(noclick):if||`` container,
+add blocks to display an appropriate message.
 
 ~hint How do I know if the number is even?
 If the number is even then, when you divide it by two, the remainder is zero.
