@@ -47,13 +47,13 @@ Now, let's enforce our new speed limit.
 container where enemies are
 destroyed when they collide when a projectile.
 1.   Add blocks **to the bottom** of that container
-to create the following ``||logic:if||`` statement:
+to create the following ``||logic(noclick):if||`` statement:
 
-``||logic(noclick):if||`` ``||variables(noclick):enemyVelocity||``
-``||logic(noclick):is greater than||``
-``||variables(noclick):maxEnemySpeed||`` ``||logic(noclick):then||``
+``||logic:if||`` ``||variables:enemyVelocity||``
+``||logic:is greater than||``
+``||variables:maxEnemySpeed||`` ``||logic:then||``
 
-``||variables(noclick):set (enemyVelocity) to (maxEnemySpeed)||``
+-   ``||variables:set (enemyVelocity) to (maxEnemySpeed)||``
 
 Run your project to test your speed limit. Try different speed limit values
 and see what works best for your project.

@@ -43,10 +43,12 @@ Let's add to our player's score, too!
 container to your workspace.
 1.   Change the kinds so that the block reads as follows:   
 ``||sprites(noclick):on sprite of kind Projectile overlaps otherSprite of kind Enemy||``
-1.   Into your new container, drag a block from the ``||info:Info||`` drawer
+1.   Into your new container, drag a block from the   
+``||info:Info||`` drawer
 that increases the player's score. Feel free to change the value to anything
 you like.
-1.   Add more blocks so that ``||variables(noclick):sprite||`` and
+1.   Add more blocks so that   
+``||variables(noclick):sprite||`` and   
 ``||variables(noclick):otherSprite||`` are destroyed. Use any effect
 that you like!
 

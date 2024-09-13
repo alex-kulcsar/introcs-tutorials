@@ -52,9 +52,11 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 Now, let's launch a *projectile* every time the player presses the **A** button.
 
-1.   Inside the ``||controller(noclick):on A button pressed||``
+1.   Inside the   
+``||controller(noclick):on A button pressed||``   
 container that you just added to your workspace,
-add a ``||sprites:Sprites||`` block that
+add a   
+``||sprites:Sprites||`` block that
 creates a new sprite. This sprite will be the projectile.
 1.   Change the sprite's kind to **Projectile**.
 1.   Give the sprite an appropriate image.

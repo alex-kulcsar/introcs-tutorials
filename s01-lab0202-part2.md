@@ -102,9 +102,10 @@ In your event handler:
 -    Use a   
 ``||game:splash||``   
 block or a   
-``||sprite:say||``   
+``||sprites:say||``   
 block to display the value of your variable.
--    Feel free to use a **join** block to make your message more interesting!
+-    Feel free to use a   
+**join** block to make your message more interesting!
 
 Run your project to see if it works as expected.
 Check the hint if you need some help.

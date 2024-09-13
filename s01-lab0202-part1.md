@@ -38,9 +38,11 @@ Click on **Advanced** to see the secret drawers in the toolbox!
 Check the hint to see a screenshot showing this secret drawer.
 
 1.   From the   
-``||text:Text||`` **Text**   
+``||text:Text||``   
+**Text**   
 drawer, drag a   
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+``||text:join ("Hello") ("World")||``   
+**join ("Hello") ("World")**   
 block into your   
 ``||game(noclick):splash("")||``   
 block.
@@ -59,7 +61,8 @@ game.splash("Hello" + "World")
 Let's learn more about how the **Join** block works.
 
 1.    Change the text in your   
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+``||text:join ("Hello") ("World")||``   
+**join ("Hello") ("World")**   
 block.
 1.    Run your project and see how it's changed.
 1.    Do this a few times until your understand how this block works.
@@ -67,7 +70,8 @@ block.
 Now, let's try something else!
 
 -     Expand the   
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+``||text:join ("Hello") ("World")||``   
+**join ("Hello") ("World")**   
 block.
 
 ~hint How do I expand a block?
@@ -76,7 +80,8 @@ plus sign to expand it. The block will show more information!
 hint~
 
 -    Now, collapse the   
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+``||text:join ("Hello") ("World")||``   
+**join ("Hello") ("World")**   
 block.
 
 ~hint How do I collapse a block?
@@ -85,7 +90,8 @@ Select the minus sign to collapse it. The block will hide some information!
 hint~
 
 Play around with the   
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+``||text:join ("Hello") ("World")||``   
+**join ("Hello") ("World")**   
 block.
 Expand it, collapse it, and enter your own text.
 Watch how your project responds.
@@ -97,7 +103,8 @@ When you are ready, move on to the next step.
 Let's get our project ready for our first variable.
 
 1.   Expand or collapse your   
-``||text:join ("Hello") ("World")||`` **join ("Hello") ("World")**   
+``||text:join ("Hello") ("World")||``   
+**join ("Hello") ("World")**   
 block
 so that it shows three spaces for text.
 1.   In the first space, enter **You are ** *with a space at the end*.
@@ -140,10 +147,12 @@ container.
 
 We've created a variable. Now, we need to use it!
 
-1.   From the ``||variables:Variables||`` drawer, drag an   
+1.   From the   
+``||variables:Variables||`` drawer, drag an   
 ``||variables:age||``   
 block and drop it in the middle spot of your   
-``||text:join ("You are ") ("0") (" years old.")||`` **join ("You are ") ("0") (" years old.")**   
+``||text:join ("You are ") ("0") (" years old.")||``   
+**join ("You are ") ("0") (" years old.")**   
 block.
 1.   Run your project to see how it works.
 1.   Change the value of the **age** variable and watch how your program
@@ -174,7 +183,8 @@ container.
 We have a variable now, but we still haven't asked the player for their age.
 Let's do that now!
 
-1.   From the ``||game:Game||`` drawer, drag an   
+1.   From the   
+``||game:Game||`` drawer, drag an   
 ``||game:ask for number ("")||``   
 block and drop it into the red block
 that sets the value of your variable.

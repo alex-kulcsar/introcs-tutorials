@@ -14,7 +14,8 @@ the game by adding one more event handler.
 container to your workspace.
 1.   Change the block so that it reads as follows:   
 ``||sprites(noclick):on sprite of kind Player overlaps otherSprite of kind Enemy||``
-1.   Into your new container, drag a block from the ``||info:Info||`` drawer
+1.   Into your new container, drag a block from the   
+``||info:Info||`` drawer
 that removes one of the player's lives.
 1.   Add another block that destroys the enemy. Use any effect that you like.
 

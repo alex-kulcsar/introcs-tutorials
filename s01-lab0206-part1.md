@@ -1,6 +1,6 @@
 # Lab 2.6 Part 1: Changing conditions
 
-## There's only room for two of us! @showdialog
+## There's only room for three of us! @showdialog
 
 Many games limit the number of projectiles that you can create at any one time.
 Let's update one of your previous projects to do just that!

@@ -59,8 +59,10 @@ container, add an
 block.
 1.   Add enough branches to test three options for our difficulty.
 1.   Add conditional statements to test whether the player selected
-a difficulty of **1**, **2**, or **3**.
-1.   In each branch of the ``||logic(noclick):if||`` block,
+a difficulty of   
+**1**, **2**, or **3**.
+1.   In each branch of the   
+``||logic(noclick):if||`` block,
 set the three variables
 to the values that you noted at the beginning of this activity.
 

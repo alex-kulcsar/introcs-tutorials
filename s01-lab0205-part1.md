@@ -48,7 +48,7 @@ container,
 set the value of your new variable to a random number from 1 to 10.
     -   Remember that the   
     ``||math:pick random||``   
-    block is in the
+    block is in the   
     ``||math:Math||``   
     drawer.
 
@@ -104,18 +104,19 @@ block. You'll find that block in the
 drawer.
 1.   In place of the   
 ``||logic(noclick):(true)||``   
-value, drop a
+value, drop a   
 ``||logic:(0) = (0)||``   
 block. You will find that in the   
 ``||logic:Logic||`` drawer, also.
-1.   Use blocks from the
+1.   Use blocks from the   
 ``||variables:Variables||``   
 drawer to make the
 block say something like this:   
 ``||logic(noclick):if||`` ``||variables(noclick):hostsNumber||``
 ``||logic(noclick):=||`` ``||variables(noclick):playerGuess||``
 
-Use the hint to check your code. We'll fill in the ``||logic:if||``
+Use the hint to check your code. We'll fill in the
+``||logic(noclick):if||``
 container next.
 
 ```blocks
@@ -133,15 +134,15 @@ if (hostsNumber == playerGuess) {
 
 ## Say what?
 
-Now, complete the ``||logic:if||`` container.
+Now, complete the ``||logic(noclick):if||`` container.
 
 -    In the top half of the   
-``||logic:if||``   
+``||logic(noclick):if||``   
 container, add blocks to make the game show host
 say that the player was correct.   
 Use a **join** block to also show the host's number.
 -    In the bottom half of the   
-``||logic:if||``   
+``||logic(noclick):if||``   
 container, add block to make the game show host
 say that the player was incorrect.   
 Use a **join** block to also show the host's number.
