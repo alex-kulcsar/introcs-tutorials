@@ -9,8 +9,11 @@ which appears--while avoiding an enemy which bounces around the screen!
 
 Now, let's add a hero sprite who will collect the food on the screen.
 
-1.   Add a ``||variables(sprites):set my sprite to||``
-``||sprites:sprite [] of kind Player||`` to your ``||loops:on start||``
+1.   Add a   
+``||variables(sprites):set my sprite to||``
+``||sprites:sprite [] of kind Player||``   
+to your   
+``||loops(noclick):on start||``
 container.
 1.   Give the variable an appropriate name.
 1.   Give your hero sprite an appropriate image.
@@ -31,8 +34,11 @@ controller.moveSprite(heroSprite)
 
 Now, let's add an enemy sprite that the hero needs to avoid.
 
-1.   Add another ``||variables(sprites):set my sprite to||``
-``||sprites:sprite [] of kind Player||`` to your ``||loops:on start||``
+1.   Add another   
+``||variables(sprites):set my sprite to||``
+``||sprites:sprite [] of kind Player||``   
+to your   
+``||loops(noclick):on start||``
 container to represent the enemy.
 1.   Give the variable an appropriate name.
 1.   Give the enemy sprite an appropriate image.
@@ -61,13 +67,16 @@ enemySprite.setBounceOnWall(true)
 
 Now, we need something to happen when your enemy sprite touches your hero sprite.
 
-1.   From the ``||sprites:Sprites||`` drawer, add an
+1.   From the ``||sprites:Sprites||`` drawer, add an   
 ``||sprites:on||`` ``||variables(sprites):sprite||``
 ``||sprites:of kind (Player) overlaps||`` ``||variables(sprites):otherSprite||``
-``||sprites:of kind (Player)||`` to your workspace.
-1.   Change the kind for ``||variables:otherSprite||`` to
-``||sprites:Enemy||``.
-1.   Read the text in this block out loud. It should say:
+``||sprites:of kind (Player)||``   
+to your workspace.
+1.   Change the kind for   
+``||variables(noclick):otherSprite||``   
+to   
+``||sprites(noclick):Enemy||``.
+1.   Read the text in this block out loud. It should say:   
 ``||sprites:on sprite of kind Player overlaps otherSprite of kind Enemy||``.
 1.   Check the hint to make sure your block looks correct.
 
@@ -85,16 +94,20 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 Let's make the enemy sprite jump to a new location on the screen whenever it
 collides with our hero sprite.
 
-1.   In the ``||sprites:on overlap||`` container that you just added to
+1.   In the ``||sprites(noclick):on overlap||`` container that you just added to
 the workspace, add blocks that:
      * Moves the enemy to a random location.
      * Moves the enemy with a new, random velocity.
 
-In your new blocks, drag the ``||variables:otherSprite||`` block from the
-top of the ``||sprites:on overlap||`` block to the blocks that change the
+In your new blocks, drag the   
+``||variables:otherSprite||``   
+block from the
+top of the   
+``||sprites:on overlap||``   
+block to the blocks that change the
 enemy sprite.
 
-Use the hint see a screenshot of this and to check your code.
+Use the hint to see a screenshot of this and to check your code.
 
 Play your game in the simulator to see what happens when the enemy sprite
 collides with your hero!
@@ -114,9 +127,10 @@ Now, let's make the fruit disappear when the hero eats it.
 
 1.    Refer to the previous step to add a new ``||sprites:on overlap||``
 block to your workspace.
-1.    Change the block so that, when you read it, it says the following:
+1.    Change the block so that it says the following:   
 ``||sprites:on sprite of kind Player overlaps otherSprite of kind Food||``.
-1.    In your new ``||sprites:on overlap||`` container, add a block that
+1.    In your new ``||sprites(noclick):on overlap||`` container,
+add a block that
 deletes the food sprite with some sort of effect.
 
 Use the hint to check your code.
@@ -131,7 +145,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 
 ## Complete
 
-Good work! Now, we need to keep track of score and lives. Onward to Part 3!
+Good work! Now, we need to keep track of score and lives.
+Onward to Part 3!
 
 ```template
 let foodSprite: Sprite = null

@@ -2,15 +2,15 @@
 
 ## Scores and lives @unplugged
 
-Your game has a player, an enemy, and some food to eat. Now, let's keep track
-of the player's score and lives.
+Your game has a player, an enemy, and some food to eat.
+Now, let's track the player's score and lives.
 
 ## Get started!
 
 Let's give the player a starting score and set of lives at the start of the game.
 
 From the ``||info:Info||`` drawer, add the following blocks to your
-``||loops:on start||`` container:
+``||loops(noclick):on start||`` container:
 
 -    ``||info:set score to (0)||``
 -    ``||info:set life to (3)||``
@@ -38,8 +38,10 @@ info.setLife(3)
 Now, let's make the player lose a life when they collide with the enemy.
 
 From the ``||info:Info||`` drawer, drag a
-``||info:change life by (-1)||`` block and add it to the appropriate
-``||sprites:on overlap||`` container.
+``||info:change life by (-1)||``   
+block and add it to the appropriate   
+``||sprites(noclick):on overlap||``   
+container.
 
 Use the hint to check your code.
 
@@ -63,9 +65,14 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 Now, let's increase the player's score whenever they eat food.
 
 From the ``||info:Info||`` drawer, drag a
-``||info:change score by (1)||`` block and add it to the appropriate
-``||sprites:on overlap||`` container. Feel free to change the value in the
-block to add different amount to the player's score whenever they eat food.
+``||info:change score by (1)||``   
+block and add it to the appropriate   
+``||sprites(noclick):on overlap||``   
+container.
+
+Feel free to change the value in the
+block to add different amount to the player's score
+whenever they eat food.
 
 Use the hint to check your code.
 
