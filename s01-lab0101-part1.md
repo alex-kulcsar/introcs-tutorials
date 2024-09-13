@@ -120,7 +120,7 @@ controller.moveSprite(mySprite, 50, 0)
 
 1.   Find the   
 ``||variables(sprites):mySprite||`` ``||sprites:say ":)"||``   
- block.
+block.
 2.   Add the block to **the bottom** of your ``||loops(noclick):on start||`` container.
 
 ---
