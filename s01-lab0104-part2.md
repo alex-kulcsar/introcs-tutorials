@@ -17,7 +17,9 @@ to your
 container.
 1.   Give the variable an appropriate name.
 1.   Give your hero sprite an appropriate image.
-1.   Add blocks to ``||loops:on start||`` so that the hero sprite:
+1.   Add blocks to   
+``||loops(noclick):on start||``   
+so that the hero sprite:
      -    Starts in the middle of the screen.
      -    Stays on the screen.
      -    Moves with the d-pad buttons.
@@ -42,7 +44,9 @@ to your
 container to represent the enemy.
 1.   Give the variable an appropriate name.
 1.   Give the enemy sprite an appropriate image.
-1.   Add blocks to ``||loops:on start||`` so that the enemy sprite:
+1.   Add blocks to   
+``||loops(noclick):on start||``   
+so that the enemy sprite:
      -    Starts in a random location.
      -    Moves with a random velocity.
      -    Bounces off of the edges of the screen.
@@ -77,7 +81,7 @@ to your workspace.
 to   
 ``||sprites(noclick):Enemy||``.
 1.   Read the text in this block out loud. It should say:   
-``||sprites:on sprite of kind Player overlaps otherSprite of kind Enemy||``.
+``||sprites(noclick):on sprite of kind Player overlaps otherSprite of kind Enemy||``.
 1.   Check the hint to make sure your block looks correct.
 
 This container block is called an **event handler**. You will learn more
@@ -100,10 +104,10 @@ the workspace, add blocks that:
      * Moves the enemy with a new, random velocity.
 
 In your new blocks, drag the   
-``||variables:otherSprite||``   
+``||variables(noclick):otherSprite||``   
 block from the
 top of the   
-``||sprites:on overlap||``   
+``||sprites(noclick):on overlap||``   
 block to the blocks that change the
 enemy sprite.
 
@@ -128,8 +132,10 @@ Now, let's make the fruit disappear when the hero eats it.
 1.    Refer to the previous step to add a new ``||sprites:on overlap||``
 block to your workspace.
 1.    Change the block so that it says the following:   
-``||sprites:on sprite of kind Player overlaps otherSprite of kind Food||``.
-1.    In your new ``||sprites(noclick):on overlap||`` container,
+``||sprites(noclick):on sprite of kind Player overlaps otherSprite of kind Food||``.
+1.    In your new   
+``||sprites(noclick):on overlap||``   
+container,
 add a block that
 deletes the food sprite with some sort of effect.
 
