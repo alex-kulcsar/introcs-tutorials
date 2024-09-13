@@ -1,6 +1,6 @@
 # Lab 3.5 Part 3: Animated sprites
 
-## What a great character! @unplugged
+## What a great character! @showdialog
 
 In the previous tutorial, you learned use a built-in block to animate a sprite.
 
@@ -70,7 +70,7 @@ characterAnimations.rule(Predicate.NotMoving)
 )
 ```
 
-## Conclusion @unplugged
+## Conclusion @showdialog
 
 Congratulations! You've used the **Character** extension to do some complex
 animations with sprites! If you want to use the **Character** extension in

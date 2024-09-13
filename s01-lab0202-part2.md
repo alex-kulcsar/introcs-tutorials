@@ -1,6 +1,6 @@
 # Lab 2.2 Part 2: Introduction to variables
 
-## How many items? @unplugged
+## How many items? @showdialog
 
 Let's look at another way that we can use variables.
 
@@ -137,7 +137,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! You have learned a few ways to use variables!
 

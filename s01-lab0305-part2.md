@@ -1,6 +1,6 @@
 # Lab 3.5 Part 2: Animated sprites
 
-## Built-in animations! @unplugged
+## Built-in animations! @showdialog
 
 In the previous tutorial, you learned how to manually animate a sprite.
 In this tutorial, you will use a built-in block to do the same thing.
@@ -136,7 +136,7 @@ Give the animation editor a try! Change some of the frames of the animation,
 click **Done** (just like in the image editor), and then watch your new
 animation in the simulator.
 
-## Conclusion @unplugged
+## Conclusion @showdialog
 
 Congratulations! You've animated a sprite using the built-in block!
 You also learned how to use the animation editor.

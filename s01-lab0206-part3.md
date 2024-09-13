@@ -1,6 +1,6 @@
 # Lab 2.6 Part 3: Changing conditions
 
-## Not too fast! @unplugged
+## Not too fast! @showdialog
 
 At some point, your enemies will be moving too fast.
 Let's update your game so that enemies have a speed limit!
@@ -70,7 +70,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 })
 ```
 
-## Conclusion @unplugged
+## Conclusion @showdialog
 
 Good job! Now, let's ask the player how difficult they want the game to be.
 On to Part 4!

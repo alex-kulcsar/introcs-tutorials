@@ -1,6 +1,6 @@
 # Lab 2.6 Part 2: Changing conditions
 
-## Here come the enemies ... faster! @unplugged
+## Here come the enemies ... faster! @showdialog
 
 Many games get more difficult the longer you play.
 Let's update your game so that enemies fall faster as you play!
@@ -58,7 +58,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 })
 ```
 
-## Conclusion @unplugged
+## Conclusion @showdialog
 
 Good job! But maybe that's too fast? Let's put a speed limit on the enemies.
 On to Part 3!

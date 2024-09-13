@@ -1,6 +1,6 @@
 # Lab 2.1 Part 1: Shooting gallery
 
-## Fire away! @unplugged
+## Fire away! @showdialog
 
 In this lab, you will learn about event handlers and how they can be used
 in your projects.
@@ -133,7 +133,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! You just made a project where the player can launch some
 projectiles. In the next part, we'll add some enemies to hurl those

@@ -1,6 +1,6 @@
 # Lab 2.2 Part 1: Introduction to variables
 
-## Introduction to variables @unplugged
+## Introduction to variables @showdialog
 
 Variables help us keep track of information that our project needs.
 MakeCode Arcade has a bunch of built-in variables that we can use, like
@@ -184,7 +184,7 @@ Then, use the **A** button to select **Ok**.
 Run your project a few times so that you see how your project works
 and to get used to the on-screen keyboard.
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! We will return to these ideas in the next couple of lessons.
 For now, move on to Part 2!

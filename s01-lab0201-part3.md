@@ -1,6 +1,6 @@
 # Lab 2.1 Part 3: Shooting gallery
 
-## Villains be gone! @unplugged
+## Villains be gone! @showdialog
 
 Our project allows the player to fire at enemies moving toward them,
 but nothing happens to the enemies when they are hit. Let's fix that!
@@ -58,7 +58,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! The player now has a way to destroy enemies and earn points.
 Now we need to put the player in some jeopardy. On to part 4!

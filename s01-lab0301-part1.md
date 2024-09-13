@@ -1,6 +1,6 @@
 # Lab 3.1 Part 1: Introduction to loops
 
-## Repeat that, please! @unplugged
+## Repeat that, please! @showdialog
 
 In this lab, we will explore a family of loops called *definite loops*.
 
@@ -125,7 +125,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! You have worked with the **repeat** loop!
 

@@ -1,6 +1,6 @@
 # Lab 2.1 Part 5 (BONUS): Shooting gallery
 
-## BONUS -- Pew pew! @unplugged
+## BONUS -- Pew pew! @showdialog
 
 Time to add some sound effects to your project!
 
@@ -70,7 +70,7 @@ sprites.onDestroyed(SpriteKind.Enemy, function (sprite) {
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! If you still have some time, then give these other bonuses a try!
 

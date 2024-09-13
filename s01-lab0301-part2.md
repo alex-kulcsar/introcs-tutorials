@@ -1,6 +1,6 @@
 # Lab 3.1 Part 2: Introduction to loops
 
-## For! @unplugged
+## For! @showdialog
 
 In this lab, we will explore a family of loops called *definite loops*.
 
@@ -107,7 +107,7 @@ for (let index = 0; index <= 4; index++) {
 }
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work!
 

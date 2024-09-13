@@ -1,6 +1,6 @@
 # Lab 2.5 Part 2: Guess what!
 
-## Is it even? @unplugged
+## Is it even? @showdialog
 
 Many programs need to test whether a number is even or odd. Let's write one!
 
@@ -50,7 +50,7 @@ if (theNumber % 2 == 0) {
 }
 ```
 
-## Complete @unplugged
+## Complete @showdialog
 
 Good work! Let's make a fortune telling device in Part 3!
 

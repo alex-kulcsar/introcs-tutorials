@@ -1,6 +1,6 @@
 # Part 1: A screen full of food
 
-## A screen full of food! @unplugged
+## A screen full of food! @showdialog
 
 In this lab, we will write a game where the player must eat all the food
 which appears--while avoiding an enemy which bounces around the screen!

@@ -1,6 +1,6 @@
 # Lab 2.1 Part 2: Shooting gallery
 
-## Here come the enemies! @unplugged
+## Here come the enemies! @showdialog
 
 A game without enemies isn't much of a game. Let's add some!
 
@@ -62,7 +62,7 @@ game.onUpdateInterval(1000, function () {
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! You've added enemies to your project that move toward the player.
 In the next part, we'll add the ability to destroy those enemies!

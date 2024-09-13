@@ -1,6 +1,6 @@
 # Part 3: Points! Lives!
 
-## Scores and lives @unplugged
+## Scores and lives @showdialog
 
 Your game has a player, an enemy, and some food to eat.
 Now, let's track the player's score and lives.
@@ -86,7 +86,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 ```
 
-## Complete @unplugged
+## Complete @showdialog
 
 Good work! Now, make the game your own!
 

@@ -1,6 +1,6 @@
 # Lab 2.5 Part 3: Guess what!
 
-## Magic four ball! @unplugged
+## Magic four ball! @showdialog
 
 Some people need help making big decisions.
 You can help them by making a magic four ball.
@@ -73,7 +73,7 @@ fortuneTellerSprite = sprites.create(sprites.builtin.villager1WalkFront1, Sprite
 fortuneTellerSprite.sayText("Think of a question, then press the A button.")
 ```
 
-## Complete @unplugged
+## Complete @showdialog
 
 Good work! What are some other ways that you could use conditional statements?
 

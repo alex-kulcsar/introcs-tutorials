@@ -1,6 +1,6 @@
 # Lab 3.4 Part 1: High scores
 
-## High scores! @unplugged
+## High scores! @showdialog
 
 In this project, you will work with arrays in MakeCode to build a
 high scores table.
@@ -16,7 +16,7 @@ If you would like to use your own project, then check with your instructor.
 Run the project to refresh your memory. When you are ready, move on to the
 next step.
 
-## More scores! @unplugged
+## More scores! @showdialog
 
 MakeCode Arcade can hold a single high score for any project that you create,
 but what if you wanted to keep the top five scores and player names instead?
@@ -118,7 +118,7 @@ info.onLifeZero(function () {
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! We have created a high scores table and displayed it at the end
 of the game. Now, we can add scores to it! On to Part 2!

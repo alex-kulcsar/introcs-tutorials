@@ -1,6 +1,6 @@
 # Lab 3.4 Part 3: High scores
 
-## Don't lose it! @unplugged
+## Don't lose it! @showdialog
 
 We've added a high scores table to our project, displayed it at the end
 of the game, and added the player's name if they qualify.
@@ -96,7 +96,7 @@ info.onLifeZero(function () {
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! We have made a high scores table that works!
 

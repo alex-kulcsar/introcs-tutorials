@@ -1,6 +1,6 @@
 # Lab 2.5 Part 1: Guess what!
 
-## Pick a number! @unplugged
+## Pick a number! @showdialog
 
 Let's make a game where the player guesses a number that the game show host
 has chosen.
@@ -135,7 +135,7 @@ if (hostsNumber == playerGuess) {
 }
 ```
 
-## Complete @unplugged
+## Complete @showdialog
 
 Good work! Let's use conditional statements to create another game in Part 2!
 

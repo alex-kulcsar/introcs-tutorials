@@ -1,6 +1,6 @@
 # Part 2: Eat it all!
 
-## We need a hero! @unplugged
+## We need a hero! @showdialog
 
 In this lab, we will write a game where the player must eat all the food
 which appears--while avoiding an enemy which bounces around the screen!

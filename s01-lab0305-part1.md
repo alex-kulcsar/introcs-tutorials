@@ -1,6 +1,6 @@
 # Lab 3.5 Part 1: Animated sprites
 
-## Starting difficulty @unplugged
+## Starting difficulty @showdialog
 
 In this lab, you'll learn different ways to create animated sprites!
 
@@ -229,7 +229,7 @@ game.onUpdateInterval(500, function () {
 })
 ```
 
-## Conclusion @unplugged
+## Conclusion @showdialog
 
 Congratulations! You've manually animated a sprite!
 

@@ -1,6 +1,6 @@
 # Lab 2.6 Part 1: Changing conditions
 
-## There's only room for two of us! @unplugged
+## There's only room for two of us! @showdialog
 
 Many games limit the number of projectiles that you can create at any one time.
 Let's update one of your previous projects to do just that!
@@ -109,7 +109,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 ```
 
-## Conclusion @unplugged
+## Conclusion @showdialog
 
 Good job! Now, let's make the enemies speed up! On to Part 2!
 

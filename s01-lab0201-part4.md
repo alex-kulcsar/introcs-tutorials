@@ -1,6 +1,6 @@
 # Lab 2.1 Part 4: Shooting gallery
 
-## Collision alert! @unplugged
+## Collision alert! @showdialog
 
 When enemies hit your player, the player should lose a life. Let's finish
 the game by adding one more event handler.
@@ -27,7 +27,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 ```
 
-## Complete! @unplugged
+## Complete! @showdialog
 
 Good work! Your game is now complete! If you have time, then move on to the bonus
 section, where we will add some sound effects!

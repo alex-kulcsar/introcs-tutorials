@@ -1,6 +1,6 @@
 # Lab 2.6 Part 4: Changing conditions
 
-## Starting difficulty @unplugged
+## Starting difficulty @showdialog
 
 Let's update your game so that the player can choose a difficulty level!
 
@@ -93,7 +93,7 @@ if (difficulty == 1) {
 }
 ```
 
-## Conclusion @unplugged
+## Conclusion @showdialog
 
 Congratulations! You've built a game that changes as the game is played and
 allows the player to choose a difficulty.
