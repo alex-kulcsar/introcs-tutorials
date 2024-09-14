@@ -5,6 +5,8 @@ Use the following URLs to open the skillmap and tutorials.
 
 ## Blocks (first semester)
 
+- Unit 0 (no skillmap since there is only one tutorial)
+    - Lab 0.6: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0006>
 - Unit 1 skillmap: <https://arcade.makecode.com/--skillmap#github:alex-kulcsar/introcs-tutorials/blocks-unit-1>
     - Lab 1.1 part 1: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0101-part1>
     - Lab 1.1 part 2: <https://arcade.makecode.com/#tutorial:https://github.com/alex-kulcsar/introcs-tutorials/s01-lab0101-part2>
